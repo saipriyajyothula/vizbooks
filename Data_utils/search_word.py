@@ -12,10 +12,10 @@ def get_usernames(book_name):
 
         # it's about time to create a TwitterSearch object with our secret tokens
         ts = TwitterSearch(
-            consumer_key = 'aaabbb',
-            consumer_secret = 'cccddd',
-            access_token = '111222',
-            access_token_secret = '333444'
+            consumer_key = 'IBcaJgLZNhoRbJL5gk0a22cqS',
+            consumer_secret = '58NyTeDQ0tvgwWkHikQLq7lBy0SL13XA5m6MNjxWhme8iJ5Mus',
+            access_token = '4896801380-5hVSqPOThxeysVtJw8eyb9pAXS6qcYUih5z4UJc',
+            access_token_secret = 'XOX38r1FCqrDIES1QuVNNEedOutRQ7UhyNowLO36te9kp'
          )
 
         user_names = []
