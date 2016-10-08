@@ -23,10 +23,10 @@ def get_usernames(book_name):
         for tweet in ts.search_tweets_iterable(tso):
             user_names.append(tweet['user']['screen_name'])
 
+        return user_names
     except TwitterSearchException as e: # take care of all those ugly errors if there are some
         print(e) 
 
-    return user_names
 
 def get_randomtext(user):
     """
@@ -37,10 +37,10 @@ def get_randomtext(user):
 
         # it's about time to create TwitterSearch object again
         ts = TwitterSearch(
-            consumer_key = 'aaabbb',
-            consumer_secret = 'cccddd',
-            access_token = '111222',
-            access_token_secret = '333444'
+            consumer_key = 'IBcaJgLZNhoRbJL5gk0a22cqS',
+            consumer_secret = '58NyTeDQ0tvgwWkHikQLq7lBy0SL13XA5m6MNjxWhme8iJ5Mus',
+            access_token = '4896801380-5hVSqPOThxeysVtJw8eyb9pAXS6qcYUih5z4UJc',
+            access_token_secret = 'XOX38r1FCqrDIES1QuVNNEedOutRQ7UhyNowLO36te9kp'
         )
 
         text = []
@@ -48,8 +48,11 @@ def get_randomtext(user):
         for tweet in ts.search_tweets_iterable(tuo):
             text.append(tweet['text'])
 
+        return text
     except TwitterSearchException as e: # catch all those ugly errors
         print(e)
 
-    return text
 
+
+if __name__ == "__main__":
+    print get_usernames("emma")
