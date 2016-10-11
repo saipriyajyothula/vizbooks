@@ -42,5 +42,3 @@ def recursive_adder(data):
 
     return data
 
-if __name__ == "__main__":
-    sentiment_adder("../Data/","finaldata.json")
