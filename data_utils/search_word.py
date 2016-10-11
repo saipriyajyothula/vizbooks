@@ -53,6 +53,5 @@ def get_randomtext(user):
         print(e)
 
 
-
 if __name__ == "__main__":
     print get_usernames("emma")
