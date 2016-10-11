@@ -69,7 +69,7 @@ for i in range(len(datum)):
         paragraphnum +=1
         sentencenum = 0
         if(re.search("Chapter \d", datum[i+1])!= None):
-            g.write('\n},')
+            g.write('\n]},')
         else:
             g.write('\n{\n"name":"Paragraph_'+str(paragraphnum)+'",\n"sentiment":"",\n"children":[')
     else:
