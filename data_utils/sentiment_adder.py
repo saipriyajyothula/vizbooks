@@ -19,12 +19,14 @@ def sentiment_adder(directoryname,filename):
     """
     Adds sentiment to json files
     """
+    # load json file
     with open(directoryname + filename) as data_file:
         data = json.load(data_file)
-    
+    # convert from unicode to utf-8
     data = convert(data)
     data = recursive_adder(data)
-
+    
+    # save json file
     with open(directoryname + "mod" + filename,"wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
 
@@ -47,6 +49,7 @@ def recursive_adder(data):
                 pos_count += 1
             if i["sentiment"] == "neg":
                 neg_count += 1 
+        # rest of the tree
         else:
             i = recursive_adder(i)
             # if not neutral
@@ -57,19 +60,20 @@ def recursive_adder(data):
                     # collect only positive
                     summer += num
     # leaves' parent 
+    # positive value for positive paragraph
     if pos_count > neg_count:
         val = float(pos_count)/float(pos_count + neg_count)
         data["sentiment"] = str(val)
+    # negative value for negative paragraph
     elif neg_count > pos_count:
         val = -1 * float(neg_count)/float(pos_count + neg_count)
         data["sentiment"] = str(val)
     # rest of the tree
     else:
         if counter > 0:
+            # avg over positive sum
             data["sentiment"] = str(summer/counter)
         else:
             data["sentiment"] = "0"
     return data
 
-if __name__ == "__main__":
-    sentiment_adder("../Data/","finaldata.json")
