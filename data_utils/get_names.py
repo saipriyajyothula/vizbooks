@@ -11,3 +11,19 @@ def get_names():
     names = names.set_index(["Sno"])
     return names
 
+def get_authorsbook(authorname):
+    """
+    Get Books of the author
+    returns - series of book list
+    """
+    names = get_names()
+    return names[names["Author_Name"] == authorname]["Book_Name"]
+
+def get_authorname(bookname):
+    """
+    Get Authorname given bookname
+    """
+    names = get_names()
+    return names[names["Book_Name"] == bookname]["Author_Name"]
+
+
