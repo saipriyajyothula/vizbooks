@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // declares a tree layout and assigns the size
 var treemap = d3.tree()
     .size([360, 400])
@@ -6,8 +5,6 @@ var treemap = d3.tree()
 
 var randomvalues = {}
 
-=======
-<<<<<<< HEAD
 // declares a tree layout and assigns the size
 var treemap = d3.tree()
     .size([360, 300])
@@ -84,13 +81,12 @@ function project(x, y) {
   var angle = (x - 90) / 180 * Math.PI, radius = y;
   return [radius * Math.cos(angle), radius * Math.sin(angle)];
 }
-=======
+
 // declares a tree layout and assigns the size
 var treemap = d3.tree()
     .size([360, 300])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
->>>>>>> origin/master
 // load the external data
 d3.json("Data/modfinaldata.json", function(error, treeData) {
   if (error) throw error;
@@ -113,7 +109,6 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
     .enter().append("path")
       .attr("class", "link")
       .attr("d", function(d) {
-<<<<<<< HEAD
           if(d.depth==2){
              randomvalues[d.name]=(Math.random()*150);
              d.y = d.y + 20 - randomvalues[d.name];  
@@ -124,19 +119,16 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
           if(d.depth==3){
           if(d.data.sentiment == "pos"){return "#green";}
           else if(d.data.sentiment == "neg"){return "#red";}
-=======
         return "M" + project(d.x, d.y)
             + "L " + project(d.parent.x, d.parent.y)})
         .attr("stroke", function(d){
           console.log(d);
           if(d.data.sentiment == "pos"){return "green";}
           else if(d.data.sentiment == "neg"){return "red";}
->>>>>>> origin/master
           else{
             if(d.depth==3){
               return "#yellow";}
             else{
-<<<<<<< HEAD
               return "#aaa";
             }}
         }
@@ -156,13 +148,11 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
         }
         })
         .attr("stroke-width", 0.8)
-=======
               return "#999"
             }
             }
         })
         .attr("stroke-width", 1)
->>>>>>> origin/master
         .attr("opacity",function(d){
           if(d.depth==2){
               return 0.4;}
@@ -176,7 +166,6 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
       .data(nodes.descendants())
     .enter().append("g")
       .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
-<<<<<<< HEAD
       .attr("transform", function(d) { return "translate(" + project(d.x, (d.children?d.y:d.y+randomvalues[d.parent])) + ")"; });
 
   // adds the circle to the node
@@ -187,13 +176,11 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
       else
           return 0.2;
   });
-=======
       .attr("transform", function(d) { return "translate(" + project(d.x, d.y) + ")"; });
 
   // adds the circle to the node
   node.append("circle")
       .attr("r", 0.1);
->>>>>>> origin/master
 
   // adds the text to the node
   
@@ -204,7 +191,3 @@ function project(x, y) {
   var angle = (x - 90) / 180 * Math.PI, radius = y;
   return [radius * Math.cos(angle), radius * Math.sin(angle)];
 }
-<<<<<<< HEAD
-=======
->>>>>>> 3bfdb61e30e3f9d10e6a3fce8f5ae0b3a05827b4
->>>>>>> origin/master
