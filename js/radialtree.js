@@ -4,7 +4,7 @@ var treemap = d3.tree()
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
 // load the external data
-d3.json("Data/finaldata.json", function(error, treeData) {
+d3.json("Data/modfinaldata.json", function(error, treeData) {
   if (error) throw error;
 
   //  assigns the data to a hierarchy using parent-child relationships
@@ -27,8 +27,25 @@ d3.json("Data/finaldata.json", function(error, treeData) {
       .attr("d", function(d) {
         return "M" + project(d.x, d.y)
             + "L " + project(d.parent.x, d.parent.y)})
-        .attr("stroke", "mistyrose")
-        .attr("stroke-width", 1);
+        .attr("stroke", function(d){
+          console.log(d);
+          if(d.data.sentiment == "pos"){return "green";}
+          else if(d.data.sentiment == "neg"){return "red";}
+          else{
+            if(d.depth==3){
+              return "#yellow";}
+            else{
+              return "#999"
+            }
+            }
+        })
+        .attr("stroke-width", 1)
+        .attr("opacity",function(d){
+          if(d.depth==2){
+              return 0.4;}
+            else{
+              return 1;}
+          });
       
     
   // adds each node as a group
@@ -40,7 +57,7 @@ d3.json("Data/finaldata.json", function(error, treeData) {
 
   // adds the circle to the node
   node.append("circle")
-      .attr("r", 1);
+      .attr("r", 0.1);
 
   // adds the text to the node
   
