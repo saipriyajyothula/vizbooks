@@ -1,14 +1,3 @@
-// append an svg element to body
-var body = d3.select("body"); 
-var svg = body.append("svg");
-
-// set the width and height to window dimensions
-var width = window.innerWidth;
-var height = window.innerHeight; 
-svg.attr("width", width)
-    .attr("height", height)
-    .style("background-color","#fff")
-
 function drawleaf(radius, arclength, flag){   // positive: flag = 1, negative: flag = 0
     
     var radius = radius;   // sector radius, set to the value specified
@@ -28,8 +17,8 @@ function drawleaf(radius, arclength, flag){   // positive: flag = 1, negative: f
     var sectorpath = "m "+padding.x+" "+(h+padding.y)+ " a "+radius+" "+radius+", "+0+", "+0+", "+1+", "+a+" 0"+" l "+(0-a/2)+" "+r+" z";   // path for the sector svg
 
     // store the colors for fill and stroke of the sector
-    var sectorfill = flag?"#e4e1ff":"mistyrose"
-    var sectorstroke = flag?"#cdc8ff":"#ffcdc8"
+    var sectorfill = flag?"#e1fff3":"mistyrose"
+    var sectorstroke = flag?"#c8ffe9":"#ffcdc8"
 
     // add the sector to svg
     svg.append("path")
@@ -40,4 +29,4 @@ function drawleaf(radius, arclength, flag){   // positive: flag = 1, negative: f
     
 }
 
-drawleaf(100,50,1);
+//drawleaf(100,40,1)

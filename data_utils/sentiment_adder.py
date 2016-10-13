@@ -77,3 +77,5 @@ def recursive_adder(data):
             data["sentiment"] = "0"
     return data
 
+if __name__ == "__main__":
+    sentiment_adder("../Data/","finaldata.json")
