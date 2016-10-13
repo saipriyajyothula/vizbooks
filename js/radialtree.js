@@ -1,6 +1,6 @@
 // declares a tree layout and assigns the size
 var treemap = d3.tree()
-    .size([360, 250])
+    .size([360, 600])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
 // load the external data
