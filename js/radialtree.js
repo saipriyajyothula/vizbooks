@@ -1,6 +1,6 @@
-    // declares a tree layout and assigns the size
+// declares a tree layout and assigns the size
 var treemap = d3.tree()
-    .size([360, 250])
+    .size([360, 540])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
 var randomvalues = {}
@@ -24,7 +24,7 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
       .attr("class", "link")
       .attr("d", function(d) {
           if(d.depth==2){
-             randomvalues[d.data.name]=(Math.random()*75);
+             randomvalues[d.data.name]=(Math.random()*144);
              d.y = d.y - randomvalues[d.data.name];  
           }
         return "M" + project(d.x, d.y)
@@ -58,7 +58,7 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
         .attr("stroke-width", 0.8)
         .attr("opacity",function(d){
           if(d.depth==2){
-              return 0.4;}
+              return 1;}
             else{
               return 1;}
           });
