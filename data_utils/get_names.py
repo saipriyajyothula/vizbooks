@@ -1,4 +1,6 @@
 import pandas as pd
+import nltk,polyglot
+from polyglot.text import Text,Word
 
 def get_names():
     """
@@ -19,11 +21,28 @@ def get_authorsbook(authorname):
     names = get_names()
     return names[names["Author_Name"] == authorname]["Book_Name"]
 
-def get_authorname(bookname):
+def get_allauthornames(bookname):
     """
-    Get Authorname given bookname
+    Get all Authorname given bookname
     """
     names = get_names()
     return names[names["Book_Name"] == bookname]["Author_Name"]
+
+def get_allbooknames():
+    """
+    Get the list of all books
+    """
+    names = get_names()
+    return names["Book_Name"]
+
+def get_characternames(para):
+    """
+    Get the list of character
+    """
+    text = Text(para)
+    # person - entities[0],location - entities[1]
+    character_list = text.entities[0]
+    return [i.encode('ascii') for i in character_list]
+
 
 

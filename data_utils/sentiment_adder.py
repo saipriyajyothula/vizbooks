@@ -24,13 +24,13 @@ def sentiment_adder(directoryname,filename):
         data = json.load(data_file)
     # convert from unicode to utf-8
     data = convert(data)
-    data = recursive_adder(data)
+    data = recursive_sentiment(data)
     
     # save json file
     with open(directoryname + "mod" + filename,"wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
 
-def recursive_adder(data):
+def recursive_sentiment(data):
     """
     Recursively add sentiment to children
     """
@@ -51,7 +51,7 @@ def recursive_adder(data):
                 neg_count += 1 
         # rest of the tree
         else:
-            i = recursive_adder(i)
+            i = recursive_sentiment(i)
             # if not neutral
             if i["sentiment"] != "0":
                 counter += 1
@@ -77,5 +77,23 @@ def recursive_adder(data):
             data["sentiment"] = "0"
     return data
 
-if __name__ == "__main__":
-    sentiment_adder("../Data/","finaldata.json")
+def emotion_adder(directoryname,filename):
+    """
+    Adds emotions to the json
+    """
+    # load json file
+    with open(directoryname + filename) as data_file:
+        data = json.load(data_file)
+    # convert from unicode to utf-8
+    data = convert(data)
+    data = recursive_emotion(data)
+    
+    # save json file
+    with open(directoryname + "mod" + filename,"wb") as data_file:
+        json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
+
+def recursive_emotion(data):
+    """
+    Recursively add emotions 
+    """
+    pass
