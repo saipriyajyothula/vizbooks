@@ -40,9 +40,47 @@ def get_characternames(para):
     Get the list of character
     """
     text = Text(para)
-    # person - entities[0],location - entities[1]
-    character_list = text.entities[0]
+    character_list = []
+    for sent in text.sentences:
+        for entity in sent.entities:
+            if entity.tag == "I-PER":
+                character_list.append(entity[0])
+    
+    if not character_list:
+        return None
+
     return [i.encode('ascii') for i in character_list]
 
+def get_locationnames(para):
+    """
+    Get locations 
+    """
+    text = Text(para)
+    location_list = []
+    for sent in text.sentences:
+        for entity in sent.entities:
+            if entity.tag == "I-LOC":
+                location_list.append(entity[0])
+    
+    if not location_list:
+        return None
 
+    return [i.encode('ascii') for i in location_list]
+
+
+def get_organizationnames(para):
+    """
+    Get organizations 
+    """
+    text = Text(para)
+    organization_list = []
+    for sent in text.sentences:
+        for entity in sent.entities:
+            if entity.tag == "I-ORG":
+                organization_list.append(entity[0])
+    
+    if not organization_list:
+        return None
+
+    return [i.encode('ascii') for i in organization_list]
 
