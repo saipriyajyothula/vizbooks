@@ -68,6 +68,7 @@ def recursive_paracombiner(data):
     """
     Recursive combiner
     """
+    # init
     count = 0
     children_list = []
     text = []
