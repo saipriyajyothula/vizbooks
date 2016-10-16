@@ -77,7 +77,7 @@ def recursive_sentiment(data):
             data["sentiment"] = "0"
     return data
 
-def emotion_adder(directoryname,filename):
+def mainemotion_adder(directoryname,filename):
     """
     Adds emotions to the json
     """
@@ -159,3 +159,5 @@ def recursivechap_emotion(data):
 
     return data
 
+# if __name__ == "__main__":
+#     mainemotion_adder(directoryname,jsonfile)

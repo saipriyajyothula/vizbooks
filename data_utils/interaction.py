@@ -10,6 +10,7 @@ def interaction_json(directoryname,jsonfile):
     with open(directoryname+jsonfile) as data_file:
         data = json.load(data_file)
 
+    # get list of characters in a book
     character_list = get_bookcharacternames(data)
 
     def recursive_extractor(data):
@@ -75,6 +76,7 @@ def interaction_matrix(directoryname,jsonfile):
         partner_list = chap_list[i-1]["conversation"]
         for i in partner_list:
             partners = i["partners"]
+            # Permutate list and add values
             for subsets in permutations(partners,2):
                 index_val,col_val = subsets
                 df.loc[index_val,col_val] += 1
@@ -101,17 +103,17 @@ def matrix_tojson(matrix):
     for chap in matrix:
         force_dict = {}
         character_list = list(chap["matrix"].columns.values)
+        # chapter name
         force_dict["name"] = chap["name"]
-
+        # nodes
         force_dict["nodes"] = []
         for character in character_list:
             temp_dict = {}
             temp_dict["id"] = str(character)
             temp_dict["group"] = 0
             force_dict["nodes"].append(temp_dict)
-
+        # links
         force_dict["links"] = []
-
         for subsets in combinations(character_list,2):
             index_val,col_val = subsets
             temp_dict = {}
@@ -119,9 +121,9 @@ def matrix_tojson(matrix):
             temp_dict["target"] = col_val
             temp_dict["value"] = chap["matrix"].loc[index_val,col_val]
             force_dict["links"].append(temp_dict)
-        
+
         force_chap["force_list"].append(force_dict)
-    
+
     return force_chap
     
 def force_jsoncreator(dictionaryname,directoryname,filename):
@@ -131,11 +133,12 @@ def force_jsoncreator(dictionaryname,directoryname,filename):
     with open(directoryname+filename,"wb") as data_file:
         json.dump(dictionaryname,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
-
-
-# if __name__ == "__main__":
-    # interaction_json("../Data","modparadata.json")
-#     matrix = interaction_matrix("../Data/","charmodparadata.json")
-#     force = matrix_tojson(matrix)
-#     force_jsoncreator(force,"../Data/","forceinteraction.json")
+def interaction_maincall(directoryname,filename):
+    """
+    Main call to interaction file
+    """
+    interaction_json(directoryname,filename)
+    matrix = interaction_matrix("../Data/","charmodparadata.json")
+    force = matrix_tojson(matrix)
+    force_jsoncreator(force,"../Data/","forceinteraction.json")
     

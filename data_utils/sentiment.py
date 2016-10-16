@@ -36,6 +36,7 @@ def get_sentiment_label(para):
 def get_emotions(para):
     """
     Get the emotions given the paragraph(list of sentences)
+    returns a dictionary of emotions 
     """
     with open("../Data/word_vec.json") as data_file:
         word_vec = json.load(data_file)
@@ -59,3 +60,6 @@ def get_emotions(para):
     
     return data
 
+
+# if __name__ == "__main__":
+#     emotions_csvtojson("../Data/","NRCEmotionLexicon.csv")
