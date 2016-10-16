@@ -87,13 +87,75 @@ def emotion_adder(directoryname,filename):
     # convert from unicode to utf-8
     data = convert(data)
     data = recursive_emotion(data)
-    
+
     # save json file
-    with open(directoryname + "mod" + filename,"wb") as data_file:
+    with open(directoryname + "emo","wb") as data_file:
+        json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
+
+    allemotion_adder(directoryname,"emo")
+
+
+def allemotion_adder(directoryname,filename):
+    """
+    Adds emotions to all fields
+    """
+    # load json file
+    with open(directoryname + filename) as data_file:
+        data = json.load(data_file)
+    # convert from unicode to utf-8
+    data = convert(data)
+    
+    data = chap_emotion(data)
+    data = recursivechap_emotion(data)
+
+    # save json file
+    with open(directoryname + "emo","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
 
 def recursive_emotion(data):
     """
     Recursively add emotions 
     """
-    pass
+    children = data["children"]
+    for i in children:
+        #leaves
+        if "value" in i.keys():
+            # get emotions dict
+            i["sentiment"] = get_emotions(i["value"]) 
+        else:
+            i = recursive_emotion(i)
+
+    return data
+
+def chap_emotion(data):
+    """
+    Add emotions to chapters
+    """
+    children_list = []
+    for child in data["children"]:
+        children_list.append(recursivechap_emotion(child))
+
+    data["children"] = children_list
+    return data
+
+def recursivechap_emotion(data):
+    """
+    Recursively adds emotions to chapters
+    """
+    temp_dict = None
+
+    for i in data["children"]:
+        if temp_dict is None:
+            temp_dict = i["sentiment"].copy()
+        else:
+            for keys in i["sentiment"].keys():
+                # add sentiments
+                temp_dict[keys] = str(float(temp_dict[keys]) + float(i["sentiment"][keys]))
+
+    for keys in temp_dict.keys():
+        # normalize to make it independent of length
+        temp_dict[keys] = str(float(temp_dict[keys])/len(data["children"]))
+    data["sentiment"] = temp_dict
+
+    return data
+
