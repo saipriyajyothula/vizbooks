@@ -37,8 +37,9 @@ def get_allbooknames():
 
 def get_characternames(para):
     """
-    Get the list of character
+    Get the list of character from the paragraph
     """
+    para = " ".join(para)
     text = Text(para)
     character_list = []
     for sent in text.sentences:
@@ -53,8 +54,9 @@ def get_characternames(para):
 
 def get_locationnames(para):
     """
-    Get locations 
+    Get locations from paragraph
     """
+    para = " ".join(para)
     text = Text(para)
     location_list = []
     for sent in text.sentences:
@@ -67,11 +69,11 @@ def get_locationnames(para):
 
     return [i.encode('ascii') for i in location_list]
 
-
 def get_organizationnames(para):
     """
-    Get organizations 
+    Get organizations from paragraph
     """
+    para = " ".join(para)
     text = Text(para)
     organization_list = []
     for sent in text.sentences:
@@ -84,3 +86,28 @@ def get_organizationnames(para):
 
     return [i.encode('ascii') for i in organization_list]
 
+def get_bookcharacternames(data):
+    """
+    Get all character names in the book
+    """
+    character_list = []
+
+    def recursive_character(data):
+        """
+        Recursively get the character names
+        """
+        children = data["children"]
+        for child in children:
+            if "value" in child.keys():
+                temp_list = get_characternames(child["value"])
+                if temp_list is None:
+                    return
+                else:
+                    for val in list(set(temp_list)):
+                        character_list.append(val)
+            else:
+                recursive_character(child)
+
+    recursive_character(data)
+
+    return list(set(character_list))
