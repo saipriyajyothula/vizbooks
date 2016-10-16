@@ -84,8 +84,6 @@ d3.json("Data/modfinaldata.json", function(error, treeData) {
     
 
   // adds the text to the node
-  
-    
 });
 
 function project(x, y) {
