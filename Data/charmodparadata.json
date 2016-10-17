@@ -224,6 +224,10 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Long",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -236,6 +240,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Netherfield",
+                        "Morris",
+                        "Long",
+                        "Bennet",
+                        "impatiently"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -249,6 +260,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -262,6 +276,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_have_",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -275,6 +293,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Lizzy",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Bingley",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -288,6 +315,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -300,6 +330,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Long",
+                        "Bingley",
+                        "resentfully",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -312,6 +349,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Kitty",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -325,6 +366,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Bennet",
+                        "Long",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -338,6 +385,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Mary",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -351,6 +403,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Lydia",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -362,6 +419,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "mien",
+                        "Darcy",
+                        "Bennet",
+                        "Hurst",
+                        "Mr",
+                        "Bingley",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -374,6 +441,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "Hurst",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -387,6 +462,21 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lizzy",
+                        "_me_",
+                        "Elizabeth",
+                        "impatiently",
+                        "Darcy",
+                        "Catherine",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Mary",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -400,6 +490,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Lizzy",
+                        "fancying",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -410,6 +506,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "_me_",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -422,6 +523,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lizzy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -435,6 +541,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Hurst"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -447,6 +559,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Bingley's",
+                        "Miss",
+                        "Bennet",
+                        "James's",
+                        "_You_",
+                        "Lucases",
+                        "Lady",
+                        "Longbourn"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -459,6 +582,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_My_",
+                        "Charlotte",
+                        "Robinson's",
+                        "Robinson",
+                        "Eliza",
+                        "Long",
+                        "Darcy",
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -472,6 +606,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Netherfield",
+                        "Eliza",
+                        "Miss",
+                        "Long"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -485,6 +626,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lucas",
+                        "Darcy",
+                        "Bennet",
+                        "Miss",
+                        "Mary",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -856,6 +1005,10 @@
                     "name":"Paragraph_35"
                 },
                 {
+                    "partners":[],
+                    "name":"Paragraph_36"
+                },
+                {
                     "partners":[
                         "Darcy",
                         "Miss"
@@ -999,6 +1152,17 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Eliza",
+                        "_them_",
+                        "Hurst",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Longbourn"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -1011,6 +1175,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "tolerably",
+                        "Elizabeth",
+                        "Charlotte",
+                        "morrow",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -1024,6 +1196,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Elizabeth",
+                        "Charlotte",
+                        "Darcy",
+                        "Forster",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -1037,6 +1217,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Forster",
+                        "Miss",
+                        "Eliza",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -1050,6 +1237,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Sir",
+                        "Bingley",
+                        "Mary",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -1063,6 +1257,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -1076,6 +1273,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Lady",
+                        "Elizabeth",
+                        "Sir"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -1089,6 +1293,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Eliza",
+                        "archly",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -1102,6 +1313,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -1115,6 +1331,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine",
+                        "Bennet",
+                        "Phillips",
+                        "felicity",
+                        "Meryton",
+                        "Lydia"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -1127,6 +1351,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia",
+                        "Captain",
+                        "Catherine",
+                        "disconcerted",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -1140,6 +1371,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Watson's",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Forster",
+                        "Captain",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -1153,6 +1394,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Louisa",
+                        "Lydia",
+                        "Bennet",
+                        "CAROLINE"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -1166,6 +1414,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley's",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -1179,6 +1432,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jones",
+                        "Bingley",
+                        "Elizabeth",
+                        "Bennet",
+                        "felicity",
+                        "Jane",
+                        "Netherfield",
+                        "LIZZY"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -1192,6 +1455,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lizzy",
+                        "Elizabeth",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -1205,6 +1474,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Catherine",
+                        "solicitude",
+                        "stiles",
+                        "Lydia",
+                        "Hurst",
+                        "Jane",
+                        "Captain",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -1218,6 +1499,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Louisa",
+                        "Elizabeth",
+                        "Darcy",
+                        "Hurst",
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -1230,6 +1519,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Louisa",
+                        "Miss",
+                        "_You_"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -1243,6 +1538,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Hurst"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -1256,6 +1556,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Eliza",
+                        "Hurst",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -1269,6 +1577,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -1282,6 +1595,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charles"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -1295,6 +1611,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Elizabeth",
+                        "Darcy",
+                        "Charles",
+                        "Caroline",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -1308,6 +1632,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Charles"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -1321,6 +1651,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -1334,6 +1668,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jones",
+                        "Elizabeth",
+                        "Darcy",
+                        "Hurst",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -1347,6 +1689,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jones",
+                        "Elizabeth",
+                        "Bennet",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -1359,6 +1709,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Netherfield",
+                        "Bingley",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -1372,6 +1728,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -1385,6 +1745,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_31",
                     "value":[
@@ -1398,6 +1763,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Sir",
+                        "Darcy",
+                        "blushing",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_32",
                     "value":[
@@ -1411,6 +1784,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lizzy",
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "Jane",
+                        "Gardiner's",
+                        "Bingley",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_33",
                     "value":[
@@ -1424,6 +1807,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Carter",
+                        "Darcy",
+                        "Colonel",
+                        "Bennet",
+                        "Lydia",
+                        "_her_",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_34",
                     "value":[
@@ -1435,6 +1830,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Hurst",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_35",
                     "value":[
@@ -1447,6 +1849,7 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[],
                     "children":"",
                     "name":"Paragraph_36",
                     "value":[
@@ -1460,6 +1863,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_37",
                     "value":[
@@ -1473,6 +1880,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Caroline",
+                        "Miss",
+                        "Charles"
+                    ],
                     "children":"",
                     "name":"Paragraph_38",
                     "value":[
@@ -1486,6 +1899,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "reproof",
+                        "Netherfield",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_39",
                     "value":[
@@ -1499,6 +1920,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_40",
                     "value":[
@@ -1512,6 +1939,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_41",
                     "value":[
@@ -1525,6 +1958,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth",
+                        "Hurst"
+                    ],
                     "children":"",
                     "name":"Paragraph_42",
                     "value":[
@@ -1538,6 +1977,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_43",
                     "value":[
@@ -1551,6 +1996,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Phillips",
+                        "Hurst",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_44",
                     "value":[
@@ -1564,6 +2015,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "laughingly",
+                        "Miss",
+                        "Hurst",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_45",
                     "value":[
@@ -1577,6 +2035,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley's",
+                        "Elizabeth",
+                        "Darcy",
+                        "yawned",
+                        "Hurst",
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_46",
                     "value":[
@@ -1589,6 +2056,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Nicholls",
+                        "Charles",
+                        "Caroline",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_47",
                     "value":[
@@ -1602,6 +2077,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_48",
                     "value":[
@@ -1615,6 +2095,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_49",
                     "value":[
@@ -1628,6 +2113,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_50",
                     "value":[
@@ -1641,6 +2131,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Louisa",
+                        "Miss",
+                        "Hurst",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_51",
                     "value":[
@@ -1965,6 +2462,16 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "morrow",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "_now_"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -1977,6 +2484,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Catherine",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Forster",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -1986,6 +2502,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Bingley",
+                        "Lydia",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -1998,6 +2520,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Collins",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -2011,6 +2539,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "beneficence",
+                        "Catherine",
+                        "Bennet",
+                        "WILLIAM",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -2024,6 +2560,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lady",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -2037,6 +2579,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "punctual",
+                        "Catherine",
+                        "Bennet",
+                        "Lydia",
+                        "Collins",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -2050,6 +2600,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -2059,6 +2612,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine",
+                        "Bennet",
+                        "Rosings",
+                        "_he_",
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -2071,6 +2632,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "de",
+                        "Lady",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -2084,6 +2650,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Denny",
+                        "morrow",
+                        "Phillips",
+                        "Lydia",
+                        "Collins",
+                        "Forster"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -2097,6 +2674,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet",
+                        "_she_",
+                        "Jane",
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -2109,6 +2694,25 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Elizabeth",
+                        "Phillips's",
+                        "Darcy",
+                        "Lydia",
+                        "Kitty",
+                        "Bennet",
+                        "Denny",
+                        "Phillips",
+                        "Meryton",
+                        "London",
+                        "deigned",
+                        "Mr",
+                        "Collins",
+                        "Wickham",
+                        "Miss",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -2122,6 +2726,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Collins",
+                        "Lady",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -2131,6 +2742,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "gentlemanlike",
+                        "Bennet",
+                        "Wickham",
+                        "Phillips",
+                        "Rosings",
+                        "Collins",
+                        "Lady",
+                        "stuffy"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -2143,6 +2765,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "Phillips",
+                        "Lydia",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -2156,6 +2786,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_him_",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -2169,6 +2804,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_me_",
+                        "Elizabeth",
+                        "Darcy",
+                        "Denny",
+                        "Meryton",
+                        "Wickham",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -2182,6 +2826,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth",
+                        "_to_"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -2195,6 +2844,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -2208,6 +2862,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_My_",
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "Phillips",
+                        "_him_",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -2221,6 +2884,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -2234,6 +2902,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Elizabeth",
+                        "Darcy",
+                        "Catherine",
+                        "Phillips",
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -2247,6 +2924,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Miss",
+                        "Wickham",
+                        "Phillips",
+                        "Lydia",
+                        "Collins",
+                        "Lady",
+                        "misleads"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -2259,6 +2946,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Bingley's",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -2271,6 +2965,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_had_",
+                        "Elizabeth",
+                        "Bennet's",
+                        "Catherine",
+                        "Bennet",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "Bingley",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -2284,6 +2990,20 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Hunsford",
+                        "Catherine",
+                        "Wickham",
+                        "liveliness",
+                        "gratified",
+                        "_she_",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -2345,6 +3065,10 @@
                         "Darcy"
                     ],
                     "name":"Paragraph_5"
+                },
+                {
+                    "partners":[],
+                    "name":"Paragraph_6"
                 },
                 {
                     "partners":[
@@ -2685,6 +3409,17 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Bingley",
+                        "Elizabeth",
+                        "Darcy",
+                        "Denny",
+                        "Till",
+                        "Lydia",
+                        "Collins",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -2697,6 +3432,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Charlotte",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -2710,6 +3451,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -2723,6 +3469,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Elizabeth",
+                        "Darcy",
+                        "Eliza",
+                        "William",
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -2736,6 +3490,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -2749,6 +3506,7 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -2762,6 +3520,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "George",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -2775,6 +3539,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "me",
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "Mr",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -2788,6 +3562,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Lady",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -2801,6 +3584,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Elizabeth",
+                        "Darcy",
+                        "Lady",
+                        "Hunsford",
+                        "Bennet",
+                        "felicity",
+                        "Jane",
+                        "Collins",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -2814,6 +3609,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "felicity",
+                        "Jane",
+                        "Lady",
+                        "Mary",
+                        "blushed"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -2827,6 +3632,21 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Lady",
+                        "whither",
+                        "Bennet",
+                        "Wickham",
+                        "Darcy's",
+                        "Hurst",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -2840,6 +3660,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Kitty",
+                        "Elizabeth",
+                        "Bennet",
+                        "diffidence"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -2852,6 +3679,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bourgh's",
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Mr",
+                        "Jenkinson",
+                        "Collins",
+                        "Lady",
+                        "Longbourn"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -2865,6 +3703,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Lady",
+                        "Elizabeth",
+                        "Catherine"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -2878,6 +3722,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -2889,6 +3736,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "felicity",
+                        "Lizzy",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -2901,6 +3755,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "hurrying",
+                        "Lizzy",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -2914,6 +3774,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Miss",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -2927,6 +3793,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Collins",
+                        "_insist_",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -2940,6 +3813,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Lizzy",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -2953,6 +3837,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_had_",
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "morrow",
+                        "Collins",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -2965,6 +3858,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley's",
+                        "Elizabeth",
+                        "Bingley",
+                        "Charles",
+                        "thither",
+                        "Hurst",
+                        "Jane",
+                        "Caroline",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -2978,6 +3882,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Louisa",
+                        "Caroline",
+                        "Darcy",
+                        "Charles",
+                        "Georgiana",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -2991,6 +3904,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Caroline",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -3004,6 +3923,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Caroline's",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -3017,6 +3941,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -3026,6 +3954,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Lucas",
+                        "Charlotte",
+                        "Lady",
+                        "Bennet",
+                        "morrow",
+                        "tolerably",
+                        "_coming",
+                        "Collins",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -3038,6 +3979,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Elizabeth",
+                        "Bennet",
+                        "Collins",
+                        "Miss",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -3051,6 +4000,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Eliza",
+                        "Collins's",
+                        "Collins",
+                        "Miss",
+                        "recollected"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -3064,6 +4022,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "boisterously",
+                        "Elizabeth",
+                        "Charlotte",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Lizzy",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_31",
                     "value":[
@@ -3076,6 +4046,23 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Caroline",
+                        "Elizabeth",
+                        "whither",
+                        "Miss",
+                        "Kitty",
+                        "Collins's",
+                        "Bennet",
+                        "Bingley's",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Lady",
+                        "envying"
+                    ],
                     "children":"",
                     "name":"Paragraph_32",
                     "value":[
@@ -3089,6 +4076,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "abhorrence",
+                        "Elizabeth",
+                        "Bennet",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Miss",
+                        "Lucas"
+                    ],
                     "children":"",
                     "name":"Paragraph_33",
                     "value":[
@@ -3102,6 +4100,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_34",
                     "value":[
@@ -3115,6 +4116,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_35",
                     "value":[
@@ -3159,6 +4164,10 @@
                         "Lizzy"
                     ],
                     "name":"Paragraph_3"
+                },
+                {
+                    "partners":[],
+                    "name":"Paragraph_4"
                 },
                 {
                     "partners":[
@@ -3461,6 +4470,15 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet's",
+                        "Jane",
+                        "sister's",
+                        "Caroline",
+                        "Miss",
+                        "Hope"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -3473,6 +4491,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Nay",
+                        "Miss",
+                        "Elizabeth",
+                        "solicitude"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -3486,6 +4511,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Collins",
+                        "Jane",
+                        "_that",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -3499,6 +4532,7 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -3512,6 +4546,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet",
+                        "Wickham",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -3525,6 +4567,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -3534,6 +4581,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Lizzy",
+                        "Gardiner",
+                        "Bennet",
+                        "Phillips",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -3546,6 +4604,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Bingley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -3559,6 +4622,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Caroline's",
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "_She_",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -3572,6 +4645,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Fitzwilliam",
+                        "Bennet",
+                        "Wickham",
+                        "Darcy's",
+                        "recollected"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -3582,6 +4665,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Wickham",
+                        "Elizabeth",
+                        "punctually"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -3594,6 +4682,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "ungracious",
+                        "Charlotte",
+                        "Elizabeth",
+                        "Darcy",
+                        "Wednesday",
+                        "Bennet",
+                        "Wickham",
+                        "Collins"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -3607,6 +4705,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Eliza",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -3620,6 +4722,21 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Caroline",
+                        "Charlotte's",
+                        "Darcy",
+                        "Miss",
+                        "Eliza",
+                        "morrow",
+                        "Hurst",
+                        "Jane",
+                        "Maria",
+                        "Lady",
+                        "Longbourn",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -3633,6 +4750,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Caroline",
+                        "Elizabeth",
+                        "Gardiner",
+                        "Kitty",
+                        "Bingley's",
+                        "Lydia",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -3646,6 +4776,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Charlotte's",
+                        "Charlotte",
+                        "Hunsford",
+                        "Catherine",
+                        "Wickham",
+                        "Jane",
+                        "Collins",
+                        "Maria",
+                        "William's",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -3658,6 +4801,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "King",
+                        "Elizabeth",
+                        "Gardiner",
+                        "avarice",
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -3671,6 +4822,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "_Her_"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -3684,6 +4839,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "savours",
+                        "rapturously",
+                        "Elizabeth",
+                        "Gardiner",
+                        "morrow",
+                        "felicity"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -3697,6 +4860,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "punctually",
+                        "Collins",
+                        "Sir",
+                        "Elizabeth",
+                        "Charlotte"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -3709,6 +4879,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Miss",
+                        "Catherine",
+                        "Collins",
+                        "Lady",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -3722,6 +4901,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Miss",
+                        "Eliza",
+                        "de",
+                        "Catherine",
+                        "Jenkinson",
+                        "Lady",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -3735,6 +4925,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Collins",
+                        "Bourgh",
+                        "Elizabeth",
+                        "Charlotte"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -3745,6 +4942,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Sir",
+                        "Elizabeth",
+                        "Collins"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -3757,6 +4960,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Elizabeth",
+                        "Catherine",
+                        "Wickham",
+                        "Jenkinson",
+                        "Collins",
+                        "Lady",
+                        "James's",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -3770,6 +4984,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Bourgh",
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "de",
+                        "Catherine",
+                        "Jenkinson",
+                        "Collins",
+                        "Lady",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -3783,6 +5010,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -3796,6 +5026,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -3809,6 +5042,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Pope",
+                        "Lady",
+                        "Catherine",
+                        "Jenkinson",
+                        "Collins",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -3822,6 +5063,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Elizabeth",
+                        "Lady",
+                        "de",
+                        "William",
+                        "Jenkinson",
+                        "Collins",
+                        "Miss",
+                        "ladyship"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -4141,6 +5393,14 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Sir",
+                        "Elizabeth",
+                        "Charlotte",
+                        "Miss",
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -4153,6 +5413,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "curtseyed",
+                        "Darcy",
+                        "Miss",
+                        "Eliza",
+                        "Fitzwilliam",
+                        "Lord",
+                        "Collins",
+                        "Easter",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -4166,6 +5439,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "Fitzwilliam",
+                        "Lady",
+                        "ladyship"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -4178,6 +5460,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Lady",
+                        "Georgiana",
+                        "Collins",
+                        "Anne",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -4191,6 +5481,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Colonel",
+                        "Fitzwilliam",
+                        "Catherine",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -4204,6 +5501,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Fitzwilliam",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -4217,6 +5519,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Lady",
+                        "de",
+                        "_her_",
+                        "Anne",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -4230,6 +5541,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Netherfield",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Lady",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -4242,6 +5563,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Netherfield",
+                        "Bingley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -4255,6 +5582,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -4268,6 +5599,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "_You_",
+                        "Netherfield",
+                        "Jane",
+                        "Collins"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -4281,6 +5620,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Fitzwilliam's",
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "Eliza",
+                        "Fitzwilliam",
+                        "Kent",
+                        "Collins",
+                        "Lady",
+                        "George"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -4294,6 +5645,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Collins",
+                        "Fitzwilliam",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -4303,6 +5660,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane",
+                        "Fitzwilliam",
+                        "Rosings",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -4315,6 +5679,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Fitzwilliam",
+                        "Kent"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -4328,6 +5697,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -4341,6 +5713,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Fitzwilliam",
+                        "Young",
+                        "Darcy's",
+                        "Hurst",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -4354,6 +5736,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -4367,6 +5753,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Fitzwilliam",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -4380,6 +5770,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Fitzwilliam's",
+                        "recollecting",
+                        "Darcy",
+                        "Lady",
+                        "Fitzwilliam",
+                        "_he_",
+                        "Jane",
+                        "Collins",
+                        "Bingley",
+                        "Miss",
+                        "_there_"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -4393,6 +5796,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "exasperate",
+                        "Darcy",
+                        "Fitzwilliam",
+                        "Darcy's",
+                        "Jane",
+                        "Rosings"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -4405,6 +5817,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "unequally"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -4418,6 +5834,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "tranquillity",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -4431,6 +5852,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -4444,6 +5869,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -4457,6 +5885,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane",
+                        "Catherine's",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -4466,6 +5901,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Darcy's",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -4478,6 +5920,21 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Younge",
+                        "thither",
+                        "Darcy",
+                        "Colonel",
+                        "Georgiana",
+                        "Wickham",
+                        "uneasiness",
+                        "Netherfield",
+                        "revenging",
+                        "Bingley",
+                        "Miss",
+                        "George"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -4491,6 +5948,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Colonel",
+                        "FITZWILLIAM",
+                        "acquit",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -4812,6 +6275,16 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Fitzwilliam",
+                        "Elizabeth",
+                        "Wickham's",
+                        "Darcy",
+                        "Colonel",
+                        "insensibility",
+                        "Wickham",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -4824,6 +6297,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Wickham",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "_there_"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -4837,6 +6318,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Fitzwilliam",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -4846,6 +6332,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "Catherine",
+                        "Collins",
+                        "Lady",
+                        "recollecting"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -4858,6 +6353,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Dawson",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -4871,6 +6372,20 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Lady",
+                        "Catherine",
+                        "Georgiana",
+                        "Meryton",
+                        "Lydia",
+                        "upbraided",
+                        "Jane",
+                        "Collins",
+                        "John",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -4884,6 +6399,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "de",
+                        "Hunsford",
+                        "Lady",
+                        "ladyship",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -4894,6 +6416,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Lady",
+                        "Miss",
+                        "Elizabeth",
+                        "Charlotte"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -4906,6 +6435,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Gardiner",
+                        "felicity",
+                        "Collins",
+                        "Lady",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -4919,6 +6457,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -4932,6 +6474,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia",
+                        "Kitty",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -4944,6 +6491,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "_that_",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -4957,6 +6512,23 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Forster's",
+                        "Kitty",
+                        "Pratt",
+                        "Denny",
+                        "_expression_",
+                        "Phillips",
+                        "Pen",
+                        "Lydia",
+                        "Jane",
+                        "Collins",
+                        "Forster",
+                        "Lizzy",
+                        "_that_",
+                        "Harriet"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -4970,6 +6542,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Kitty's",
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "George",
+                        "Lydia",
+                        "Jane",
+                        "Lady",
+                        "Mary",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -4983,6 +6567,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Miss",
+                        "Wickham",
+                        "Lydia",
+                        "Mary",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -4993,6 +6584,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -5005,6 +6601,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth",
+                        "George",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -5018,6 +6620,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Lizzy",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -5031,6 +6638,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Lizzy",
+                        "Bennet",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -5044,6 +6658,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Nobody",
+                        "Bennet",
+                        "Phillips",
+                        "Jane",
+                        "Netherfield",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -5057,6 +6679,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "_They_"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -5070,6 +6697,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Kitty",
+                        "Miss",
+                        "Miller's",
+                        "Lydia"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -5082,6 +6715,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Phillips",
+                        "Lydia",
+                        "Forster"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -5095,6 +6736,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_me_",
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Forster"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -5108,6 +6758,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "Lydia",
+                        "Jane",
+                        "Forster",
+                        "husband's"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -5121,6 +6780,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia's",
+                        "Fitzwilliam's",
+                        "Darcy's",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -5134,6 +6800,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -5147,6 +6818,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Kitty",
+                        "Bennet",
+                        "Wickham",
+                        "felicity",
+                        "Lydia",
+                        "Forster",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -5594,6 +7276,16 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "imprudence",
+                        "Kitty",
+                        "Bennet",
+                        "felicity",
+                        "Lydia",
+                        "Jane",
+                        "Forster"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -5606,6 +7298,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Gardiner",
+                        "Kitty",
+                        "Bennet",
+                        "Jane",
+                        "cheerfulness"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -5619,6 +7319,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Pemberley",
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Wickham",
+                        "Derbyshire"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -5632,6 +7340,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Pemberley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -5644,6 +7356,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "recollecting",
+                        "Gardiner",
+                        "Wickham",
+                        "morrow",
+                        "Reynolds",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -5657,6 +7377,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Gardiner",
+                        "Reynolds",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -5670,6 +7396,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Reynolds",
+                        "Gardiner",
+                        "morrow",
+                        "Mr",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -5683,6 +7417,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Gardiner",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -5696,6 +7435,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Gardiner",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -5709,6 +7453,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Gardiner",
+                        "Reynolds",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -5722,6 +7471,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Reynolds",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -5735,6 +7490,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Reynolds",
+                        "Elizabeth",
+                        "recollected"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -5748,6 +7509,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Pemberley",
+                        "adieu",
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "blushed"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -5761,6 +7530,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "morrow",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -5774,6 +7551,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Gardiner's",
+                        "Dove",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -5787,6 +7570,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Gardiner",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -5800,6 +7588,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -5812,6 +7606,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "complaisance",
+                        "Georgiana",
+                        "_she_",
+                        "_all_",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -5825,6 +7631,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "construing",
+                        "Darcy's",
+                        "Bingley",
+                        "Lambton"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -5838,6 +7653,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Annesley",
+                        "Gardiner",
+                        "Miss",
+                        "Elizabeth",
+                        "Hurst"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -5850,6 +7672,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Georgiana",
+                        "Annesley",
+                        "comprehended",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -5863,6 +7694,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Louisa",
+                        "Elizabeth",
+                        "Darcy",
+                        "Eliza",
+                        "Georgiana",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -5876,6 +7716,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Gardiner",
+                        "Miss",
+                        "_that_",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -5886,6 +7733,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "F",
+                        "Colonel",
+                        "Kitty",
+                        "Wickham",
+                        "morrow",
+                        "Lydia",
+                        "Denny",
+                        "Jane",
+                        "Forster",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -5898,6 +7758,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "darting",
+                        "Elizabeth",
+                        "endeavouring",
+                        "Darcy",
+                        "Gardiner",
+                        "_You_",
+                        "Wickham",
+                        "Jane",
+                        "recollecting"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -5911,6 +7782,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -5924,6 +7799,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "consolatory",
+                        "Miss",
+                        "Lydia",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -5937,6 +7819,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "John"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -5950,6 +7841,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "brightening",
+                        "Forster",
+                        "Gardiner",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -5962,6 +7859,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lydia",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -5975,6 +7878,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Fitzwilliam",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "Forster",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_31",
                     "value":[
@@ -5988,6 +7902,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_32",
                     "value":[
@@ -6001,6 +7919,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_33",
                     "value":[
@@ -6014,6 +7936,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Gardiner",
+                        "Kitty",
+                        "Bennet",
+                        "Wickham",
+                        "Jane",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_34",
                     "value":[
@@ -6027,6 +7958,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Gardiner",
+                        "solicitude",
+                        "Bennet",
+                        "Wickham",
+                        "_this_",
+                        "Lydia"
+                    ],
                     "children":"",
                     "name":"Paragraph_35",
                     "value":[
@@ -6040,6 +7979,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Lydia",
+                        "Jane",
+                        "Forster",
+                        "Miss",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_36",
                     "value":[
@@ -6053,6 +8001,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia's",
+                        "Colonel",
+                        "Kitty",
+                        "Wickham",
+                        "_him_",
+                        "Forster",
+                        "Denny"
+                    ],
                     "children":"",
                     "name":"Paragraph_37",
                     "value":[
@@ -6066,6 +8023,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Forster",
+                        "Meryton",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_38",
                     "value":[
@@ -6079,6 +8042,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Colonel",
+                        "morrow",
+                        "Pratt",
+                        "_she_",
+                        "Lydia",
+                        "Jane",
+                        "LYDIA",
+                        "Sally"
+                    ],
                     "children":"",
                     "name":"Paragraph_39",
                     "value":[
@@ -6092,6 +8066,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Phillips",
+                        "Jane",
+                        "Lady",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_40",
                     "value":[
@@ -6105,6 +8087,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_41",
                     "value":[
@@ -6448,6 +8433,10 @@
                     "name":"Paragraph_32"
                 },
                 {
+                    "partners":[],
+                    "name":"Paragraph_33"
+                },
+                {
                     "partners":[
                         "Darcy",
                         "_as"
@@ -6572,6 +8561,12 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Jane",
+                        "Gardiner",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -6584,6 +8579,21 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "condescendingly",
+                        "Colonel",
+                        "Gardiner",
+                        "Bennet",
+                        "Wickham",
+                        "intimates",
+                        "Jane",
+                        "Collins",
+                        "Forster",
+                        "Lizzy",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -6597,6 +8607,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Colonel",
+                        "Gardiner",
+                        "Bennet",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "Forster"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -6610,6 +8630,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -6623,6 +8648,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Kitty",
+                        "drily",
+                        "Lydia",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -6636,6 +8667,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Kitty",
+                        "_You_"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -6648,6 +8683,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Gardiner",
+                        "Miss",
+                        "Elizabeth",
+                        "Bennet's"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -6660,6 +8702,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -6673,6 +8719,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -6686,6 +8736,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "GARDINER",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -6699,6 +8754,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -6712,6 +8770,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lydia",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -6725,6 +8788,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lydia",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -6738,6 +8807,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Gardiner",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -6751,6 +8826,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Lydia's",
+                        "Gardiner",
+                        "Kitty",
+                        "Bennet",
+                        "Wickham",
+                        "felicity",
+                        "Lydia",
+                        "Jane",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -6764,6 +8851,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Philips",
+                        "Elizabeth",
+                        "Kitty",
+                        "Lydia",
+                        "Hill",
+                        "Jane",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -6775,6 +8871,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia",
+                        "Bennet",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -6787,6 +8888,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Ashworth",
+                        "Bennet",
+                        "Wickham",
+                        "Darcy",
+                        "Meryton",
+                        "Lydia",
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -6800,6 +8911,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "felicity",
+                        "Lydia"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -6813,6 +8929,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bennet's",
+                        "Lydia's",
+                        "Colonel",
+                        "GARDINER",
+                        "Haggerston",
+                        "Wickham",
+                        "Lydia",
+                        "Bennet",
+                        "Forster",
+                        "Gardiner"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -6826,6 +8954,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -6838,6 +8974,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "gaily",
+                        "Phillips",
+                        "Wickham",
+                        "William",
+                        "Elizabeth",
+                        "Lydia",
+                        "Jane",
+                        "expressively"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -6851,6 +8997,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -6864,6 +9015,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Lydia's",
+                        "Bennet",
+                        "Wickham",
+                        "Lydia",
+                        "mamma",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -6877,6 +9037,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane",
+                        "Stone",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -6890,6 +9057,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Lydia",
+                        "Elizabeth",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -6903,6 +9076,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Wickham's",
+                        "Darcy",
+                        "Gardiner",
+                        "Wickham",
+                        "Lydia",
+                        "_we_"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -6915,6 +9097,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_I_",
+                        "Darcy",
+                        "Gardiner",
+                        "Bennet",
+                        "Wickham",
+                        "Lydia",
+                        "Darcy's",
+                        "Younge",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -6928,6 +9121,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "punctual",
+                        "Jane's",
+                        "Wickham",
+                        "_prudently_",
+                        "Lydia",
+                        "_He_",
+                        "Jane",
+                        "_another"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -6941,6 +9146,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "GARDINER",
+                        "Wickham",
+                        "supplication",
+                        "Lydia"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -6954,6 +9167,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Poor",
+                        "Lydia",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_31",
                     "value":[
@@ -6967,6 +9185,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_32",
                     "value":[
@@ -6980,6 +9203,7 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[],
                     "children":"",
                     "name":"Paragraph_33",
                     "value":[
@@ -6993,6 +9217,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "_as"
+                    ],
                     "children":"",
                     "name":"Paragraph_34",
                     "value":[
@@ -7006,6 +9234,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_35",
                     "value":[
@@ -7019,6 +9250,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lydia",
+                        "Elizabeth",
+                        "Bennet",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_36",
                     "value":[
@@ -7031,6 +9268,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "simpers",
+                        "Elizabeth",
+                        "Bennet",
+                        "Wickham's"
+                    ],
                     "children":"",
                     "name":"Paragraph_37",
                     "value":[
@@ -7044,6 +9288,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_I_",
+                        "Miss",
+                        "Bennet",
+                        "Phillips",
+                        "Lydia",
+                        "Jane",
+                        "Netherfield",
+                        "Bingley",
+                        "Nicholls"
+                    ],
                     "children":"",
                     "name":"Paragraph_38",
                     "value":[
@@ -7057,6 +9312,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_39",
                     "value":[
@@ -7070,6 +9330,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Bingley",
+                        "_they_",
+                        "Long",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_40",
                     "value":[
@@ -7083,6 +9350,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley's",
+                        "Elizabeth",
+                        "Darcy",
+                        "what's",
+                        "Kitty",
+                        "Bennet",
+                        "mamma",
+                        "Mr",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_41",
                     "value":[
@@ -7096,6 +9375,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "Jane",
+                        "Bingley",
+                        "intently"
+                    ],
                     "children":"",
                     "name":"Paragraph_42",
                     "value":[
@@ -7109,6 +9396,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Bennet",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_43",
                     "value":[
@@ -7122,6 +9417,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Esq",
+                        "Darcy",
+                        "Bingley",
+                        "Miss",
+                        "George"
+                    ],
                     "children":"",
                     "name":"Paragraph_44",
                     "value":[
@@ -7135,6 +9438,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Bingley",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_45",
                     "value":[
@@ -7207,6 +9515,10 @@
                         "Bennet"
                     ],
                     "name":"Paragraph_6"
+                },
+                {
+                    "partners":[],
+                    "name":"Paragraph_7"
                 },
                 {
                     "partners":[
@@ -7616,6 +9928,9 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -7628,6 +9943,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "laughingly",
+                        "Bingley",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -7641,6 +9963,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "salutation",
+                        "_then_",
+                        "Jane",
+                        "Bingley",
+                        "forbore"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -7654,6 +9986,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "shan't"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -7667,6 +10003,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "Annesley",
+                        "Long",
+                        "Jane",
+                        "unluckily"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -7680,6 +10025,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Miss",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -7693,6 +10044,7 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -7703,6 +10055,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "morrow",
+                        "Bingley",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[
@@ -7715,6 +10072,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sarah",
+                        "Elizabeth",
+                        "Catherine",
+                        "Kitty",
+                        "Bennet",
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_9",
                     "value":[
@@ -7728,6 +10096,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Bennet",
+                        "_she_",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_10",
                     "value":[
@@ -7741,6 +10117,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "tolerably",
+                        "Elizabeth",
+                        "Darcy",
+                        "punctual",
+                        "Bennet",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_11",
                     "value":[
@@ -7754,6 +10139,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Kitty",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_12",
                     "value":[
@@ -7767,6 +10157,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet's",
+                        "Kitty",
+                        "Bennet",
+                        "felicity",
+                        "Jane",
+                        "Bingley"
+                    ],
                     "children":"",
                     "name":"Paragraph_13",
                     "value":[
@@ -7780,6 +10179,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Kitty",
+                        "Mary",
+                        "Bennet",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_14",
                     "value":[
@@ -7793,6 +10199,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Bingley",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_15",
                     "value":[
@@ -7806,6 +10218,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "_my_",
+                        "Elizabeth",
+                        "Bennet",
+                        "Phillips",
+                        "Jane",
+                        "Collins"
+                    ],
                     "children":"",
                     "name":"Paragraph_16",
                     "value":[
@@ -7819,6 +10239,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Kitty",
+                        "Catherine",
+                        "Bennet",
+                        "Elizabeth's",
+                        "Jane",
+                        "Bingley",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_17",
                     "value":[
@@ -7831,6 +10261,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Sir",
+                        "Lady",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_18",
                     "value":[
@@ -7844,6 +10280,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Collins",
+                        "Miss",
+                        "Lady",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_19",
                     "value":[
@@ -7857,6 +10300,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Miss",
+                        "Lady",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_20",
                     "value":[
@@ -7870,6 +10318,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_21",
                     "value":[
@@ -7883,6 +10336,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_22",
                     "value":[
@@ -7896,6 +10352,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_23",
                     "value":[
@@ -7909,6 +10369,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Miss",
+                        "Catherine",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_24",
                     "value":[
@@ -7922,6 +10388,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Tell"
+                    ],
                     "children":"",
                     "name":"Paragraph_25",
                     "value":[
@@ -7935,6 +10405,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Miss",
+                        "Lady",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_26",
                     "value":[
@@ -7948,6 +10423,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "resentfully",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_27",
                     "value":[
@@ -7961,6 +10441,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Catherine",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_28",
                     "value":[
@@ -7974,6 +10460,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lady",
+                        "Elizabeth",
+                        "impatiently"
+                    ],
                     "children":"",
                     "name":"Paragraph_29",
                     "value":[
@@ -7985,6 +10476,17 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Catherine",
+                        "_her_",
+                        "Jane",
+                        "Netherfield",
+                        "Bingley",
+                        "Lady",
+                        "_one_"
+                    ],
                     "children":"",
                     "name":"Paragraph_30",
                     "value":[
@@ -7997,6 +10499,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lizzy",
+                        "Lady",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_31",
                     "value":[
@@ -8010,6 +10517,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Lucases",
+                        "Elizabeth",
+                        "Young",
+                        "Bennet",
+                        "Collins",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_32",
                     "value":[
@@ -8023,6 +10538,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Collins",
+                        "Lady",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_33",
                     "value":[
@@ -8036,6 +10557,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_34",
                     "value":[
@@ -8046,6 +10571,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Gardiner",
+                        "Kitty",
+                        "Bennet",
+                        "Lydia's",
+                        "Jane",
+                        "Bingley",
+                        "Lady",
+                        "Mary",
+                        "Maria"
+                    ],
                     "children":"",
                     "name":"Paragraph_35",
                     "value":[
@@ -8058,6 +10596,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "unluckily",
+                        "Lady",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_36",
                     "value":[
@@ -8071,6 +10614,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_37",
                     "value":[
@@ -8084,6 +10630,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy"
+                    ],
                     "children":"",
                     "name":"Paragraph_38",
                     "value":[
@@ -8097,6 +10646,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "loveliest"
+                    ],
                     "children":"",
                     "name":"Paragraph_39",
                     "value":[
@@ -8110,6 +10662,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy"
+                    ],
                     "children":"",
                     "name":"Paragraph_40",
                     "value":[
@@ -8123,6 +10678,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Bingley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_41",
                     "value":[
@@ -8136,6 +10697,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Bingley",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_42",
                     "value":[
@@ -8148,6 +10713,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Darcy",
+                        "Elizabeth",
+                        "_felt_"
+                    ],
                     "children":"",
                     "name":"Paragraph_43",
                     "value":[
@@ -8160,6 +10731,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Lizzy",
+                        "Miss",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_44",
                     "value":[
@@ -8173,6 +10750,10 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane",
+                        "Miss"
+                    ],
                     "children":"",
                     "name":"Paragraph_45",
                     "value":[
@@ -8186,6 +10767,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Bingley",
+                        "Elizabeth",
+                        "Bennet",
+                        "Lizzy"
+                    ],
                     "children":"",
                     "name":"Paragraph_46",
                     "value":[
@@ -8199,6 +10787,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Kitty",
+                        "Elizabeth",
+                        "Bennet"
+                    ],
                     "children":"",
                     "name":"Paragraph_47",
                     "value":[
@@ -8212,6 +10806,12 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Darcy",
+                        "Jane",
+                        "Lizzy",
+                        "Elizabeth"
+                    ],
                     "children":"",
                     "name":"Paragraph_48",
                     "value":[
@@ -8225,6 +10825,16 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Kitty",
+                        "_you_",
+                        "morrow",
+                        "Lydia",
+                        "Lizzy",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_49",
                     "value":[
@@ -8238,6 +10848,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "morrow",
+                        "Lizzy",
+                        "tranquilly"
+                    ],
                     "children":"",
                     "name":"Paragraph_50",
                     "value":[
@@ -8251,6 +10869,11 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet",
+                        "Wickham"
+                    ],
                     "children":"",
                     "name":"Paragraph_51",
                     "value":[
@@ -8356,6 +10979,10 @@
             "sentiment":"",
             "children":[
                 {
+                    "partners":[
+                        "Darcy",
+                        "_you_"
+                    ],
                     "children":"",
                     "name":"Paragraph_1",
                     "value":[
@@ -8368,6 +10995,9 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Jane"
+                    ],
                     "children":"",
                     "name":"Paragraph_2",
                     "value":[
@@ -8381,6 +11011,13 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Catherine's",
+                        "Lady",
+                        "Lydia",
+                        "Catherine",
+                        "_Too"
+                    ],
                     "children":"",
                     "name":"Paragraph_3",
                     "value":[
@@ -8394,6 +11031,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Bennet",
+                        "Jane",
+                        "Collins",
+                        "Lady"
+                    ],
                     "children":"",
                     "name":"Paragraph_4",
                     "value":[
@@ -8407,6 +11052,19 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Charlotte",
+                        "Elizabeth",
+                        "Sir",
+                        "Darcy",
+                        "Lady",
+                        "Catherine",
+                        "Phillips",
+                        "Jane",
+                        "Collins",
+                        "Miss",
+                        "Lucas"
+                    ],
                     "children":"",
                     "name":"Paragraph_5",
                     "value":[
@@ -8420,6 +11078,18 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Bennet's",
+                        "Darcy",
+                        "Kitty",
+                        "Bennet",
+                        "Wickham",
+                        "Jane",
+                        "oftener",
+                        "Bingley",
+                        "Mary"
+                    ],
                     "children":"",
                     "name":"Paragraph_6",
                     "value":[
@@ -8432,6 +11102,14 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Elizabeth",
+                        "Darcy",
+                        "Wickham",
+                        "Lydia",
+                        "Jane",
+                        "_much_"
+                    ],
                     "children":"",
                     "name":"Paragraph_7",
                     "value":[
@@ -8445,6 +11123,15 @@
                     "sentiment":""
                 },
                 {
+                    "partners":[
+                        "Pemberley",
+                        "Elizabeth",
+                        "Darcy",
+                        "Miss",
+                        "Lady",
+                        "Georgiana",
+                        "dropt"
+                    ],
                     "children":"",
                     "name":"Paragraph_8",
                     "value":[

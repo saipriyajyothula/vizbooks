@@ -45,8 +45,16 @@ def get_emotions(para):
         word_vec[keys] = np.array(list(word_vec[keys].encode('ascii')),dtype = "|S4").astype(np.float)
 
     summer = np.zeros(10)
-    for sentences in para:
-        words = sentences.split(" ")
+    if para is list:
+        for sentences in para:
+            words = sentences.split(" ")
+            # vectorize the words
+            words = [word_vec[i] if i in word_vec.keys() else np.zeros(10) for i in words]
+            for nparrays in words:
+                summer = np.sum([summer,nparrays],axis = 0)
+
+    else:
+        words = para.split(" ")
         # vectorize the words
         words = [word_vec[i] if i in word_vec.keys() else np.zeros(10) for i in words]
         for nparrays in words:
@@ -57,6 +65,7 @@ def get_emotions(para):
     data =  data.to_dict(orient = 'list')
     for keys in data.keys():
         data[keys] = str(data[keys][0])
+
     
     return data
 
