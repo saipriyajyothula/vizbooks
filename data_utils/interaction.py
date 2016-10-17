@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import json
 from get_names import *
@@ -160,6 +161,25 @@ def interaction_panel(directoryname,jsonfile):
     
     return final_matrix
 
+def matrix_combiner(matrix,panel):
+    """
+    Combines matrix and panel (combines count and emotions)
+    """
+    final_matrix = []
+    for x,y in zip(matrix,panel): 
+        temp_dict = {}
+        char_list = x["matrix"].columns.values
+        a = x["matrix"].values.reshape(len(char_list),len(char_list),1)
+        b = y["matrix"].values
+        mat = np.concatenate((a,b),axis = 2) 
+        mat = pd.Panel(mat,items = char_list,major_axis = char_list)
+        mat.minor_axis = ["Positive","Negative","Anger","Anticipation","Disgust","Fear","Joy","Sadness","Surprise","Trust","Count"]
+        temp_dict["name"] = x["name"]
+        temp_dict["matrix"] = mat
+        final_matrix.append(temp_dict)
+
+    return final_matrix
+
 def matrix_tojson(matrix):
     """
     Converts matrix to json file
@@ -209,16 +229,27 @@ def force_jsoncreator(dictionaryname,directoryname,filename):
     with open(directoryname+filename,"wb") as data_file:
         json.dump(dictionaryname,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
+
+
 def interaction_maincall(directoryname,filename):
     """
     Main call to interaction file
     """
     interaction_json(directoryname,filename)
-    # count force json
+
+    # # count force json
+    # matrix = interaction_matrix("../Data/","charmodparadata.json")
+    # force = matrix_tojson(matrix)
+    # force_jsoncreator(force,"../Data/","forceinteraction_count.json")
+
+    # # emotion force json
+    # matrix = interaction_panel("../Data/","charmodparadata.json")
+    # force = matrix_tojson(matrix)
+    # force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
+
+    # count and force json
     matrix = interaction_matrix("../Data/","charmodparadata.json")
-    force = matrix_tojson(matrix)
-    force_jsoncreator(force,"../Data/","forceinteraction_count.json")
-    # emotion force json
-    matrix = interaction_panel("../Data/","charmodparadata.json")
-    force = matrix_tojson(matrix)
+    panel = interaction_panel("../Data/","charmodparadata.json")
+    final_matrix = matrix_combiner(matrix,panel)
+    force = matrix_tojson(final_matrix)
     force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")

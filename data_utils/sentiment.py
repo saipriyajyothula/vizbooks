@@ -20,19 +20,6 @@ def emotions_csvtojson(directoryname,filename):
         json.dump(data,data_file,sort_keys = True,indent = 4,separators = (',',':'))
 
 
-def get_sentiment_label(para):
-    """
-    Return sentiment label given text
-    """
-    blob = TextBlob(para)
-    pol = blob.sentiment.polarity
-    if pol > 0.5:
-        return "pos"
-    elif pol < -0.5:
-        return "neg"
-    else:
-        return "neutral"
-
 def get_emotions(para):
     """
     Get the emotions given the paragraph(list of sentences)
@@ -72,3 +59,17 @@ def get_emotions(para):
 
 # if __name__ == "__main__":
 #     emotions_csvtojson("../Data/","NRCEmotionLexicon.csv")
+
+
+# def get_sentiment_label(para):
+#     """
+#     Return sentiment label given text
+#     """
+#     blob = TextBlob(para)
+#     pol = blob.sentiment.polarity
+#     if pol > 0.5:
+#         return "pos"
+#     elif pol < -0.5:
+#         return "neg"
+#     else:
+#         return "neutral"
