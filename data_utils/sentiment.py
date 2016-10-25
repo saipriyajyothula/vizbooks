@@ -61,15 +61,3 @@ def get_emotions(para):
 #     emotions_csvtojson("../Data/","NRCEmotionLexicon.csv")
 
 
-# def get_sentiment_label(para):
-#     """
-#     Return sentiment label given text
-#     """
-#     blob = TextBlob(para)
-#     pol = blob.sentiment.polarity
-#     if pol > 0.5:
-#         return "pos"
-#     elif pol < -0.5:
-#         return "neg"
-#     else:
-#         return "neutral"

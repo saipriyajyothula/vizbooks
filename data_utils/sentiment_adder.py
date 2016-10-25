@@ -120,7 +120,7 @@ def recursive_emotion(data):
     for i in children:
         #leaves
         if "value" in i.keys():
-            # get emotions dict
+            # get emotions dict of paragraph
             i["sentiment"] = get_emotions(i["value"]) 
         else:
             i = recursive_emotion(i)

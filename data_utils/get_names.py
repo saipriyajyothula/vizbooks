@@ -39,14 +39,16 @@ def get_characternames(para):
     """
     Get the list of character from the paragraph
     """
-    para = " ".join(para)
-    text = Text(para)
     character_list = []
-    for sent in text.sentences:
-        for entity in sent.entities:
+    if isinstance(para,list):
+        para = " ".join(para)
+
+    text = Text(para)
+    for sentence in text.sentences:
+        for entity in sentence.entities:
             if entity.tag == "I-PER":
                 character_list.append(entity[0])
-    
+   
     if not character_list:
         return None
 

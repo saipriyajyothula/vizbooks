@@ -12,6 +12,7 @@ def interaction_json(directoryname,jsonfile):
     with open(directoryname+jsonfile) as data_file:
         data = json.load(data_file)
 
+
     # get list of characters in a book
     character_list = get_bookcharacternames(data)
 
@@ -25,6 +26,8 @@ def interaction_json(directoryname,jsonfile):
             conversation_partners = []
             for i in child["children"]:
                 temp_dict = {}
+
+                # get characters in the paragraph
                 val = get_characternames(i["value"])
                 # if no characters in paragraph
                 if val is None:
@@ -38,6 +41,29 @@ def interaction_json(directoryname,jsonfile):
                     # unique values
                     temp_dict["partners"] = list(set(val))
                     i["partners"] = list(set(val))
+
+                # sent_partners = []
+                # for sent in i["value"]:
+                #     # get characters in the paragraph
+                #     val = get_characternames(sent.encode('ascii'))
+                #     if val is None:
+                #         continue
+                #     else:
+                #         sent_partners.append(list(set(val)))
+                #
+                # # if characters in paragraph
+                # if sent_partners:
+                #     # get paragraph name
+                #     temp_dict["name"] = i["name"]
+                #     # unique values
+                #     temp_dict["partners"] = sent_partners
+                #     i["partners"] = sent_partners
+                # else:
+                #     # get paragraph name
+                #     temp_dict["name"] = i["name"]
+                #     temp_dict["partners"] = []
+                #     i["partners"] = []
+
                 conversation_partners.append(temp_dict)
             child["conversation"] = conversation_partners
             chapter_list.append(child)
@@ -142,11 +168,19 @@ def interaction_panel(directoryname,jsonfile):
             # Combination of list and add values
             for subsets in combinations(partners,2):
                 index_val,col_val = subsets
+                # for each sentence
                 for sent in para_list:
                     if (index_val) and (col_val) in sent:
                         emotion_dict = get_emotions(sent)
                         for key in emotion_dict.keys():
                             df.loc[index_val,col_val,key] += float(emotion_dict[key])
+                # # for paragraph
+                # for sent in para_list:
+                #     if (index_val) and (col_val) in sent:
+                #         emotion_dict = get_emotions(para_list) # probably useless; emotion_dict = child["sentiment"]
+                #         for key in emotion_dict.keys():
+                #             df.loc[index_val,col_val,key] += float(emotion_dict[key])
+                #         break
 
         return df
 
@@ -157,7 +191,6 @@ def interaction_panel(directoryname,jsonfile):
         temp_dict["name"] = "Chapter_" + str(i+1)
         temp_dict["matrix"] = matrixop(i+1,chap)
         final_matrix.append(temp_dict)
-        break
     
     return final_matrix
 
@@ -189,8 +222,10 @@ def matrix_tojson(matrix):
     force_chap["force_list"] = []
     for chap in matrix:
         force_dict = {}
+        # just count
         if chap["matrix"].ndim == 2:
             character_list = list(chap["matrix"].columns.values)
+        # with emotions
         elif chap["matrix"].ndim == 3:
             character_list = list(chap["matrix"].items.values)
         # chapter name
@@ -211,12 +246,29 @@ def matrix_tojson(matrix):
             temp_dict["target"] = col_val
             # number of interaction
             if chap["matrix"].ndim == 2:
+                matrix_value = chap["matrix"].loc[index_val,col_val]
+                if matrix_value == 0:
+                    continue
                 temp_dict["value"] = chap["matrix"].loc[index_val,col_val]
             # emotions
             elif chap["matrix"].ndim == 3:
+                matrix_value = chap["matrix"].loc[index_val,col_val,:].to_dict()
+                if matrix_value["Count"] == 0:
+                    continue
                 temp_dict["value"] = chap["matrix"].loc[index_val,col_val,:].to_dict()
 
             force_dict["links"].append(temp_dict)
+
+
+        # remove monologue persons
+        chars = []
+        for link in force_dict["links"]:
+            chars.append(link["source"])
+            chars.append(link["target"])
+        
+        for i,node in enumerate(force_dict["nodes"]):
+            if node["id"] not in chars:
+                force_dict["nodes"].pop(i)
 
         force_chap["force_list"].append(force_dict)
 
@@ -228,8 +280,6 @@ def force_jsoncreator(dictionaryname,directoryname,filename):
     """
     with open(directoryname+filename,"wb") as data_file:
         json.dump(dictionaryname,data_file,sort_keys = False,indent = 4,separators = (',',':'))
-
-
 
 def interaction_maincall(directoryname,filename):
     """
@@ -247,9 +297,12 @@ def interaction_maincall(directoryname,filename):
     # force = matrix_tojson(matrix)
     # force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
 
-    # count and force json
+    # count and emotion force json
     matrix = interaction_matrix("../Data/","charmodparadata.json")
     panel = interaction_panel("../Data/","charmodparadata.json")
     final_matrix = matrix_combiner(matrix,panel)
     force = matrix_tojson(final_matrix)
     force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
+
+# if __name__ == "__main__":
+#     interaction_maincall("","")
