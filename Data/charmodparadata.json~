@@ -165,10 +165,12 @@
                 {
                     "partners":[
                         "Sir",
-                        "Lady",
-                        "Bennet",
-                        "Lucases",
+                        "Bingley's",
                         "Miss",
+                        "Bennet",
+                        "James's",
+                        "Lucases",
+                        "Lady",
                         "Longbourn"
                     ],
                     "name":"Paragraph_19"
@@ -176,10 +178,11 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Darcy",
+                        "Robinson's",
                         "Robinson",
                         "Eliza",
                         "Long",
+                        "Darcy",
                         "Jane",
                         "Miss"
                     ],
@@ -540,10 +543,12 @@
                 {
                     "partners":[
                         "Sir",
-                        "Lady",
-                        "Bennet",
-                        "Lucases",
+                        "Bingley's",
                         "Miss",
+                        "Bennet",
+                        "James's",
+                        "Lucases",
+                        "Lady",
                         "Longbourn"
                     ],
                     "children":"",
@@ -560,10 +565,11 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Darcy",
+                        "Robinson's",
                         "Robinson",
                         "Eliza",
                         "Long",
+                        "Darcy",
                         "Jane",
                         "Miss"
                     ],
@@ -732,6 +738,7 @@
                 {
                     "partners":[
                         "Sir",
+                        "Watson's",
                         "Bennet",
                         "Lydia",
                         "Jane",
@@ -753,6 +760,7 @@
                 },
                 {
                     "partners":[
+                        "Bingley's",
                         "Elizabeth",
                         "Bennet"
                     ],
@@ -934,6 +942,7 @@
                         "Darcy",
                         "Bennet",
                         "Jane",
+                        "Gardiner's",
                         "Bingley",
                         "Lady"
                     ],
@@ -1049,11 +1058,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Darcy",
-                        "Miss",
+                        "Bingley's",
                         "Elizabeth",
-                        "Hurst"
+                        "Darcy",
+                        "Hurst",
+                        "Jane",
+                        "Miss"
                     ],
                     "name":"Paragraph_46"
                 },
@@ -1322,6 +1332,7 @@
                 {
                     "partners":[
                         "Sir",
+                        "Watson's",
                         "Bennet",
                         "Lydia",
                         "Jane",
@@ -1363,6 +1374,7 @@
                 },
                 {
                     "partners":[
+                        "Bingley's",
                         "Elizabeth",
                         "Bennet"
                     ],
@@ -1732,6 +1744,7 @@
                         "Darcy",
                         "Bennet",
                         "Jane",
+                        "Gardiner's",
                         "Bingley",
                         "Lady"
                     ],
@@ -1974,11 +1987,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Darcy",
-                        "Miss",
+                        "Bingley's",
                         "Elizabeth",
-                        "Hurst"
+                        "Darcy",
+                        "Hurst",
+                        "Jane",
+                        "Miss"
                     ],
                     "children":"",
                     "name":"Paragraph_46",
@@ -2209,6 +2223,7 @@
                     "partners":[
                         "Bingley",
                         "Elizabeth",
+                        "Phillips's",
                         "Darcy",
                         "Lydia",
                         "Kitty",
@@ -2311,6 +2326,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Elizabeth",
                         "Darcy",
                         "Catherine",
@@ -2336,6 +2352,7 @@
                     "partners":[
                         "Jane",
                         "Darcy",
+                        "Bingley's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -2344,6 +2361,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Bennet's",
                         "Catherine",
                         "Bennet",
                         "Wickham",
@@ -2600,6 +2618,7 @@
                     "partners":[
                         "Bingley",
                         "Elizabeth",
+                        "Phillips's",
                         "Darcy",
                         "Lydia",
                         "Kitty",
@@ -2797,6 +2816,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Elizabeth",
                         "Darcy",
                         "Catherine",
@@ -2841,6 +2861,7 @@
                     "partners":[
                         "Jane",
                         "Darcy",
+                        "Bingley's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -2858,6 +2879,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Bennet's",
                         "Catherine",
                         "Bennet",
                         "Wickham",
@@ -2991,6 +3013,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Elizabeth",
                         "Darcy",
                         "Lady",
@@ -3020,8 +3043,9 @@
                         "Lady",
                         "Bennet",
                         "Wickham",
-                        "Lydia",
+                        "Darcy's",
                         "Hurst",
+                        "Lydia",
                         "Jane",
                         "Collins",
                         "Bingley",
@@ -3040,6 +3064,7 @@
                 },
                 {
                     "partners":[
+                        "Bourgh's",
                         "Elizabeth",
                         "Kitty",
                         "Bennet",
@@ -3127,8 +3152,9 @@
                 },
                 {
                     "partners":[
-                        "Bingley",
+                        "Bingley's",
                         "Elizabeth",
+                        "Bingley",
                         "Charles",
                         "Hurst",
                         "Jane",
@@ -3161,6 +3187,7 @@
                 {
                     "partners":[
                         "Jane",
+                        "Caroline's",
                         "Elizabeth"
                     ],
                     "name":"Paragraph_26"
@@ -3187,10 +3214,11 @@
                 },
                 {
                     "partners":[
-                        "Collins",
-                        "Miss",
+                        "Catherine's",
                         "Elizabeth",
                         "Bennet",
+                        "Collins",
+                        "Miss",
                         "Mary"
                     ],
                     "name":"Paragraph_29"
@@ -3198,10 +3226,11 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Eliza",
-                        "Miss",
                         "Elizabeth",
-                        "Collins"
+                        "Eliza",
+                        "Collins's",
+                        "Collins",
+                        "Miss"
                     ],
                     "name":"Paragraph_30"
                 },
@@ -3226,7 +3255,9 @@
                         "Elizabeth",
                         "Miss",
                         "Kitty",
+                        "Collins's",
                         "Bennet",
+                        "Bingley's",
                         "Lydia",
                         "Jane",
                         "Collins",
@@ -3441,6 +3472,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Elizabeth",
                         "Darcy",
                         "Lady",
@@ -3490,8 +3522,9 @@
                         "Lady",
                         "Bennet",
                         "Wickham",
-                        "Lydia",
+                        "Darcy's",
                         "Hurst",
+                        "Lydia",
                         "Jane",
                         "Collins",
                         "Bingley",
@@ -3529,6 +3562,7 @@
                 },
                 {
                     "partners":[
+                        "Bourgh's",
                         "Elizabeth",
                         "Kitty",
                         "Bennet",
@@ -3702,8 +3736,9 @@
                 },
                 {
                     "partners":[
-                        "Bingley",
+                        "Bingley's",
                         "Elizabeth",
+                        "Bingley",
                         "Charles",
                         "Hurst",
                         "Jane",
@@ -3766,6 +3801,7 @@
                 {
                     "partners":[
                         "Jane",
+                        "Caroline's",
                         "Elizabeth"
                     ],
                     "children":"",
@@ -3817,10 +3853,11 @@
                 },
                 {
                     "partners":[
-                        "Collins",
-                        "Miss",
+                        "Catherine's",
                         "Elizabeth",
                         "Bennet",
+                        "Collins",
+                        "Miss",
                         "Mary"
                     ],
                     "children":"",
@@ -3838,10 +3875,11 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Eliza",
-                        "Miss",
                         "Elizabeth",
-                        "Collins"
+                        "Eliza",
+                        "Collins's",
+                        "Collins",
+                        "Miss"
                     ],
                     "children":"",
                     "name":"Paragraph_30",
@@ -3885,7 +3923,9 @@
                         "Elizabeth",
                         "Miss",
                         "Kitty",
+                        "Collins's",
                         "Bennet",
+                        "Bingley's",
                         "Lydia",
                         "Jane",
                         "Collins",
@@ -3962,10 +4002,11 @@
             "conversation":[
                 {
                     "partners":[
+                        "Elizabeth",
+                        "Bennet's",
                         "Jane",
                         "Caroline",
                         "Miss",
-                        "Elizabeth",
                         "Hope"
                     ],
                     "name":"Paragraph_1"
@@ -4036,6 +4077,7 @@
                 },
                 {
                     "partners":[
+                        "Caroline's",
                         "Elizabeth",
                         "Darcy",
                         "Gardiner",
@@ -4052,7 +4094,8 @@
                         "Gardiner",
                         "Fitzwilliam",
                         "Bennet",
-                        "Wickham"
+                        "Wickham",
+                        "Darcy's"
                     ],
                     "name":"Paragraph_10"
                 },
@@ -4085,16 +4128,17 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Elizabeth",
+                        "Caroline",
+                        "Charlotte's",
                         "Darcy",
                         "Miss",
                         "Eliza",
                         "Hurst",
                         "Jane",
-                        "Caroline",
+                        "Maria",
                         "Lady",
                         "Longbourn",
-                        "Maria"
+                        "Elizabeth"
                     ],
                     "name":"Paragraph_14"
                 },
@@ -4105,6 +4149,7 @@
                         "Elizabeth",
                         "Gardiner",
                         "Kitty",
+                        "Bingley's",
                         "Lydia",
                         "Jane",
                         "Bingley",
@@ -4116,14 +4161,16 @@
                 {
                     "partners":[
                         "Sir",
-                        "Elizabeth",
+                        "Charlotte's",
                         "Charlotte",
                         "Hunsford",
                         "Catherine",
                         "Wickham",
                         "Jane",
                         "Collins",
-                        "Maria"
+                        "Maria",
+                        "William's",
+                        "Elizabeth"
                     ],
                     "name":"Paragraph_16"
                 },
@@ -4196,6 +4243,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Sir",
                         "Elizabeth",
                         "Collins"
@@ -4211,6 +4259,7 @@
                         "Jenkinson",
                         "Collins",
                         "Lady",
+                        "James's",
                         "Maria"
                     ],
                     "name":"Paragraph_25"
@@ -4271,10 +4320,11 @@
             "children":[
                 {
                     "partners":[
+                        "Elizabeth",
+                        "Bennet's",
                         "Jane",
                         "Caroline",
                         "Miss",
-                        "Elizabeth",
                         "Hope"
                     ],
                     "children":"",
@@ -4419,6 +4469,7 @@
                 },
                 {
                     "partners":[
+                        "Caroline's",
                         "Elizabeth",
                         "Darcy",
                         "Gardiner",
@@ -4445,7 +4496,8 @@
                         "Gardiner",
                         "Fitzwilliam",
                         "Bennet",
-                        "Wickham"
+                        "Wickham",
+                        "Darcy's"
                     ],
                     "children":"",
                     "name":"Paragraph_10",
@@ -4514,16 +4566,17 @@
                 {
                     "partners":[
                         "Charlotte",
-                        "Elizabeth",
+                        "Caroline",
+                        "Charlotte's",
                         "Darcy",
                         "Miss",
                         "Eliza",
                         "Hurst",
                         "Jane",
-                        "Caroline",
+                        "Maria",
                         "Lady",
                         "Longbourn",
-                        "Maria"
+                        "Elizabeth"
                     ],
                     "children":"",
                     "name":"Paragraph_14",
@@ -4544,6 +4597,7 @@
                         "Elizabeth",
                         "Gardiner",
                         "Kitty",
+                        "Bingley's",
                         "Lydia",
                         "Jane",
                         "Bingley",
@@ -4565,14 +4619,16 @@
                 {
                     "partners":[
                         "Sir",
-                        "Elizabeth",
+                        "Charlotte's",
                         "Charlotte",
                         "Hunsford",
                         "Catherine",
                         "Wickham",
                         "Jane",
                         "Collins",
-                        "Maria"
+                        "Maria",
+                        "William's",
+                        "Elizabeth"
                     ],
                     "children":"",
                     "name":"Paragraph_16",
@@ -4720,6 +4776,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Sir",
                         "Elizabeth",
                         "Collins"
@@ -4744,6 +4801,7 @@
                         "Jenkinson",
                         "Collins",
                         "Lady",
+                        "James's",
                         "Maria"
                     ],
                     "children":"",
@@ -4890,11 +4948,12 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
+                        "Elizabeth",
                         "Darcy",
                         "Miss",
                         "Fitzwilliam",
-                        "Lady",
-                        "Elizabeth"
+                        "Lady"
                     ],
                     "name":"Paragraph_3"
                 },
@@ -4978,6 +5037,7 @@
                 },
                 {
                     "partners":[
+                        "Fitzwilliam's",
                         "Elizabeth",
                         "Darcy",
                         "Miss",
@@ -5029,6 +5089,7 @@
                         "Darcy",
                         "Fitzwilliam",
                         "Young",
+                        "Darcy's",
                         "Hurst",
                         "Bingley",
                         "Miss"
@@ -5051,9 +5112,10 @@
                 },
                 {
                     "partners":[
+                        "Fitzwilliam",
                         "Darcy",
                         "Lady",
-                        "Fitzwilliam",
+                        "Fitzwilliam's",
                         "Jane",
                         "Collins",
                         "Bingley",
@@ -5063,11 +5125,12 @@
                 },
                 {
                     "partners":[
+                        "Elizabeth",
                         "Darcy",
-                        "Jane",
                         "Fitzwilliam",
-                        "Rosings",
-                        "Elizabeth"
+                        "Darcy's",
+                        "Jane",
+                        "Rosings"
                     ],
                     "name":"Paragraph_21"
                 },
@@ -5101,6 +5164,7 @@
                     "partners":[
                         "Darcy",
                         "Jane",
+                        "Catherine's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -5110,6 +5174,7 @@
                     "partners":[
                         "Darcy",
                         "Bingley",
+                        "Darcy's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -5189,11 +5254,12 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
+                        "Elizabeth",
                         "Darcy",
                         "Miss",
                         "Fitzwilliam",
-                        "Lady",
-                        "Elizabeth"
+                        "Lady"
                     ],
                     "children":"",
                     "name":"Paragraph_3",
@@ -5365,6 +5431,7 @@
                 },
                 {
                     "partners":[
+                        "Fitzwilliam's",
                         "Elizabeth",
                         "Darcy",
                         "Miss",
@@ -5461,6 +5528,7 @@
                         "Darcy",
                         "Fitzwilliam",
                         "Young",
+                        "Darcy's",
                         "Hurst",
                         "Bingley",
                         "Miss"
@@ -5513,9 +5581,10 @@
                 },
                 {
                     "partners":[
+                        "Fitzwilliam",
                         "Darcy",
                         "Lady",
-                        "Fitzwilliam",
+                        "Fitzwilliam's",
                         "Jane",
                         "Collins",
                         "Bingley",
@@ -5535,11 +5604,12 @@
                 },
                 {
                     "partners":[
+                        "Elizabeth",
                         "Darcy",
-                        "Jane",
                         "Fitzwilliam",
-                        "Rosings",
-                        "Elizabeth"
+                        "Darcy's",
+                        "Jane",
+                        "Rosings"
                     ],
                     "children":"",
                     "name":"Paragraph_21",
@@ -5622,6 +5692,7 @@
                     "partners":[
                         "Darcy",
                         "Jane",
+                        "Catherine's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -5637,6 +5708,7 @@
                     "partners":[
                         "Darcy",
                         "Bingley",
+                        "Darcy's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -5698,6 +5770,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Wickham's",
                         "Darcy",
                         "Colonel",
                         "Fitzwilliam",
@@ -5817,6 +5890,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Forster's",
                         "Kitty",
                         "Pratt",
                         "Denny",
@@ -5833,6 +5907,7 @@
                 },
                 {
                     "partners":[
+                        "Kitty's",
                         "Elizabeth",
                         "Kitty",
                         "Bennet",
@@ -5912,6 +5987,7 @@
                     "partners":[
                         "Kitty",
                         "Miss",
+                        "Miller's",
                         "Lydia"
                     ],
                     "name":"Paragraph_22"
@@ -5951,6 +6027,9 @@
                 },
                 {
                     "partners":[
+                        "Lydia's",
+                        "Fitzwilliam's",
+                        "Darcy's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -5984,6 +6063,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Wickham's",
                         "Darcy",
                         "Colonel",
                         "Fitzwilliam",
@@ -6212,6 +6292,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Forster's",
                         "Kitty",
                         "Pratt",
                         "Denny",
@@ -6238,6 +6319,7 @@
                 },
                 {
                     "partners":[
+                        "Kitty's",
                         "Elizabeth",
                         "Kitty",
                         "Bennet",
@@ -6393,6 +6475,7 @@
                     "partners":[
                         "Kitty",
                         "Miss",
+                        "Miller's",
                         "Lydia"
                     ],
                     "children":"",
@@ -6471,6 +6554,9 @@
                 },
                 {
                     "partners":[
+                        "Lydia's",
+                        "Fitzwilliam's",
+                        "Darcy's",
                         "Elizabeth",
                         "Wickham"
                     ],
@@ -6661,6 +6747,7 @@
                 {
                     "partners":[
                         "Darcy",
+                        "Gardiner's",
                         "Dove",
                         "Elizabeth"
                     ],
@@ -6697,11 +6784,12 @@
                 },
                 {
                     "partners":[
-                        "Darcy",
-                        "Bingley",
-                        "Lambton",
                         "Elizabeth",
-                        "Wickham"
+                        "Darcy",
+                        "Wickham",
+                        "Darcy's",
+                        "Bingley",
+                        "Lambton"
                     ],
                     "name":"Paragraph_19"
                 },
@@ -6880,10 +6968,11 @@
                 },
                 {
                     "partners":[
+                        "Lydia's",
                         "Colonel",
-                        "Forster",
-                        "Wickham",
                         "Kitty",
+                        "Wickham",
+                        "Forster",
                         "Denny"
                     ],
                     "name":"Paragraph_37"
@@ -7198,6 +7287,7 @@
                 {
                     "partners":[
                         "Darcy",
+                        "Gardiner's",
                         "Dove",
                         "Elizabeth"
                     ],
@@ -7273,11 +7363,12 @@
                 },
                 {
                     "partners":[
-                        "Darcy",
-                        "Bingley",
-                        "Lambton",
                         "Elizabeth",
-                        "Wickham"
+                        "Darcy",
+                        "Wickham",
+                        "Darcy's",
+                        "Bingley",
+                        "Lambton"
                     ],
                     "children":"",
                     "name":"Paragraph_19",
@@ -7630,10 +7721,11 @@
                 },
                 {
                     "partners":[
+                        "Lydia's",
                         "Colonel",
-                        "Forster",
-                        "Wickham",
                         "Kitty",
+                        "Wickham",
+                        "Forster",
                         "Denny"
                     ],
                     "children":"",
@@ -7791,7 +7883,8 @@
                         "Jane",
                         "Gardiner",
                         "Miss",
-                        "Elizabeth"
+                        "Elizabeth",
+                        "Bennet's"
                     ],
                     "name":"Paragraph_7"
                 },
@@ -7852,6 +7945,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Lydia's",
                         "Gardiner",
                         "Kitty",
                         "Bennet",
@@ -7904,6 +7998,8 @@
                 },
                 {
                     "partners":[
+                        "Bennet's",
+                        "Lydia's",
                         "Colonel",
                         "GARDINER",
                         "Haggerston",
@@ -7947,11 +8043,12 @@
                 },
                 {
                     "partners":[
-                        "Lizzy",
-                        "Lydia",
                         "Elizabeth",
+                        "Lydia's",
                         "Bennet",
-                        "Wickham"
+                        "Wickham",
+                        "Lydia",
+                        "Lizzy"
                     ],
                     "name":"Paragraph_24"
                 },
@@ -7976,11 +8073,12 @@
                 },
                 {
                     "partners":[
+                        "Elizabeth",
+                        "Wickham's",
                         "Darcy",
                         "Gardiner",
-                        "Lydia",
-                        "Elizabeth",
-                        "Wickham"
+                        "Wickham",
+                        "Lydia"
                     ],
                     "name":"Paragraph_27"
                 },
@@ -7991,6 +8089,7 @@
                         "Bennet",
                         "Wickham",
                         "Lydia",
+                        "Darcy's",
                         "Younge",
                         "Miss"
                     ],
@@ -7998,11 +8097,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Darcy",
-                        "Lydia",
                         "Elizabeth",
-                        "Wickham"
+                        "Darcy",
+                        "Jane's",
+                        "Wickham",
+                        "Lydia",
+                        "Jane"
                     ],
                     "name":"Paragraph_29"
                 },
@@ -8061,7 +8161,8 @@
                     "partners":[
                         "Sir",
                         "Elizabeth",
-                        "Bennet"
+                        "Bennet",
+                        "Wickham's"
                     ],
                     "name":"Paragraph_37"
                 },
@@ -8097,6 +8198,7 @@
                 },
                 {
                     "partners":[
+                        "Bingley's",
                         "Elizabeth",
                         "Darcy",
                         "Kitty",
@@ -8274,7 +8376,8 @@
                         "Jane",
                         "Gardiner",
                         "Miss",
-                        "Elizabeth"
+                        "Elizabeth",
+                        "Bennet's"
                     ],
                     "children":"",
                     "name":"Paragraph_7",
@@ -8414,6 +8517,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Lydia's",
                         "Gardiner",
                         "Kitty",
                         "Bennet",
@@ -8513,6 +8617,8 @@
                 },
                 {
                     "partners":[
+                        "Bennet's",
+                        "Lydia's",
                         "Colonel",
                         "GARDINER",
                         "Haggerston",
@@ -8595,11 +8701,12 @@
                 },
                 {
                     "partners":[
-                        "Lizzy",
-                        "Lydia",
                         "Elizabeth",
+                        "Lydia's",
                         "Bennet",
-                        "Wickham"
+                        "Wickham",
+                        "Lydia",
+                        "Lizzy"
                     ],
                     "children":"",
                     "name":"Paragraph_24",
@@ -8654,11 +8761,12 @@
                 },
                 {
                     "partners":[
+                        "Elizabeth",
+                        "Wickham's",
                         "Darcy",
                         "Gardiner",
-                        "Lydia",
-                        "Elizabeth",
-                        "Wickham"
+                        "Wickham",
+                        "Lydia"
                     ],
                     "children":"",
                     "name":"Paragraph_27",
@@ -8678,6 +8786,7 @@
                         "Bennet",
                         "Wickham",
                         "Lydia",
+                        "Darcy's",
                         "Younge",
                         "Miss"
                     ],
@@ -8695,11 +8804,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Darcy",
-                        "Lydia",
                         "Elizabeth",
-                        "Wickham"
+                        "Darcy",
+                        "Jane's",
+                        "Wickham",
+                        "Lydia",
+                        "Jane"
                     ],
                     "children":"",
                     "name":"Paragraph_29",
@@ -8837,7 +8947,8 @@
                     "partners":[
                         "Sir",
                         "Elizabeth",
-                        "Bennet"
+                        "Bennet",
+                        "Wickham's"
                     ],
                     "children":"",
                     "name":"Paragraph_37",
@@ -8913,6 +9024,7 @@
                 },
                 {
                     "partners":[
+                        "Bingley's",
                         "Elizabeth",
                         "Darcy",
                         "Kitty",
@@ -9123,11 +9235,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Bingley",
-                        "Kitty",
                         "Elizabeth",
-                        "Bennet"
+                        "Bennet's",
+                        "Kitty",
+                        "Bennet",
+                        "Jane",
+                        "Bingley"
                     ],
                     "name":"Paragraph_13"
                 },
@@ -9166,6 +9279,7 @@
                         "Kitty",
                         "Catherine",
                         "Bennet",
+                        "Elizabeth's",
                         "Jane",
                         "Bingley",
                         "Miss"
@@ -9321,6 +9435,7 @@
                         "Gardiner",
                         "Kitty",
                         "Bennet",
+                        "Lydia's",
                         "Jane",
                         "Bingley",
                         "Lady",
@@ -9679,11 +9794,12 @@
                 },
                 {
                     "partners":[
-                        "Jane",
-                        "Bingley",
-                        "Kitty",
                         "Elizabeth",
-                        "Bennet"
+                        "Bennet's",
+                        "Kitty",
+                        "Bennet",
+                        "Jane",
+                        "Bingley"
                     ],
                     "children":"",
                     "name":"Paragraph_13",
@@ -9762,6 +9878,7 @@
                         "Kitty",
                         "Catherine",
                         "Bennet",
+                        "Elizabeth's",
                         "Jane",
                         "Bingley",
                         "Miss"
@@ -10090,6 +10207,7 @@
                         "Gardiner",
                         "Kitty",
                         "Bennet",
+                        "Lydia's",
                         "Jane",
                         "Bingley",
                         "Lady",
@@ -10404,6 +10522,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Lady",
                         "Lydia",
                         "Catherine"
@@ -10440,6 +10559,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Bennet's",
                         "Darcy",
                         "Kitty",
                         "Bennet",
@@ -10508,6 +10628,7 @@
                 },
                 {
                     "partners":[
+                        "Catherine's",
                         "Lady",
                         "Lydia",
                         "Catherine"
@@ -10574,6 +10695,7 @@
                 {
                     "partners":[
                         "Elizabeth",
+                        "Bennet's",
                         "Darcy",
                         "Kitty",
                         "Bennet",

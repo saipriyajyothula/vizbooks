@@ -1,11 +1,38 @@
+// chapter selector
 var chapter = new Array(10);
-
 for(var i = 0;i < chapter.length; i++){
     chapter[i] = true;
   }
-  //chapter[0] = true;
 
+//chapter[0] = true;
+// end chapter selector
 
+// emotion selector
+var emotion_dict = {
+  "0": {"name":"Positive","color":"green"},
+  "1": {"name":"Negative","color":"red"},
+  "2": {"name":"Anger","color":""},
+  "3": {"name":"Anticipation","color":""},
+  "4": {"name":"Disgust","color":""},
+  "5": {"name":"Fear","color":"blue"},
+  "6": {"name":"Joy","color":"orange"},
+  "7": {"name":"Sadness","color":""},
+  "8": {"name":"Surprise","color":""},
+  "9": {"name":"Trust","color":""},
+  "null": {"name":"Count","color":"#999"}
+};
+
+var emotion = new Array(10)
+for(var i = 0;i <10; i++){
+  emotion[i] = false;
+}
+
+//emotion[1] = true;
+
+var current_emotion = null;
+// end emotion selector
+
+// create data
 d3.json("../Data/forceinteraction_emotions.json", function(error, graph) {
   if (error) throw error;
 
@@ -37,7 +64,6 @@ d3.json("../Data/forceinteraction_emotions.json", function(error, graph) {
   				nodes_list.push(node);
   			}
   		}
-
   		
   		// list of links
   		var current_link = current_data["links"];
@@ -68,9 +94,10 @@ d3.json("../Data/forceinteraction_emotions.json", function(error, graph) {
   				links_list.push({"source" : a, "target" : b, "value" : val});
   			}
   		}
-
   	}
   }
+
   data = {"nodes" : nodes_list, "links" : links_list};
+
   force(data);
 });

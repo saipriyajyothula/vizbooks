@@ -46,7 +46,7 @@ def get_characternames(para):
     text = Text(para)
     for sentence in text.sentences:
         for entity in sentence.entities:
-            if entity.tag == "I-PER":
+            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
                 character_list.append(entity[0])
    
     if not character_list:
@@ -63,7 +63,7 @@ def get_locationnames(para):
     location_list = []
     for sent in text.sentences:
         for entity in sent.entities:
-            if entity.tag == "I-LOC":
+            if entity.tag == "I-LOC" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
                 location_list.append(entity[0])
     
     if not location_list:
@@ -80,7 +80,7 @@ def get_organizationnames(para):
     organization_list = []
     for sent in text.sentences:
         for entity in sent.entities:
-            if entity.tag == "I-ORG":
+            if entity.tag == "I-ORG" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
                 organization_list.append(entity[0])
     
     if not organization_list:
@@ -113,3 +113,4 @@ def get_bookcharacternames(data):
     recursive_character(data)
 
     return list(set(character_list))
+

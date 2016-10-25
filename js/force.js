@@ -1,7 +1,7 @@
 function force(graph){
-  var width = 1750,
-      height = 1650,
-      radius = 5;
+  var width = 750,
+      height = 650,
+      radius = 6;
 
   var svg = d3.select("body").append("svg")
       .attr("width", width)
@@ -15,46 +15,13 @@ function force(graph){
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
       .force("charge", manybody)
       .force("center", d3.forceCenter(width / 2, height / 3));
+      
 
-  var emotion = new Array(10)
-  for(var i = 0;i <10; i++){
-    emotion[i] = false;
-  }
-  //emotion[1] = true;
-
-  var emotion_dict = {
-    "0": {"name":"Positive","color":"green"},
-    "1": {"name":"Negative","color":"red"},
-    "2": {"name":"Anger","color":""},
-    "3": {"name":"Anticipation","color":""},
-    "4": {"name":"Disgust","color":""},
-    "5": {"name":"Fear","color":"blue"},
-    "6": {"name":"Joy","color":"orange"},
-    "7": {"name":"Sadness","color":""},
-    "8": {"name":"Surprise","color":""},
-    "9": {"name":"Trust","color":""},
-    "null": {"name":"Count","color":"#999"}
-  };
-
-  var current_emotion = null;
-
-  var link = svg.append("g")
-      .attr("class", "links")
-      .selectAll("line")
+  var link = svg.selectAll(".links")
       .data(graph.links)
-      .enter().append("line")
-      .attr("stroke-width", function(d) { 
-        for(var i = 0;i <10; i++){
-          if(emotion[i] == true){
-            current_emotion = i.toString();
-            break;
-          }
-        }
-        if(current_emotion == null){current_emotion = "null";}
-        return Math.sqrt(d.value[emotion_dict[current_emotion].name]); })
-      .style('stroke',function(){
-        return emotion_dict[current_emotion].color;
-      });
+      .enter().append("g")
+      .attr("class", "links");
+
 
   var node = svg.selectAll(".node")
           .data(graph.nodes)
@@ -65,6 +32,12 @@ function force(graph){
           .on("drag", dragged)
           .on("end", dragended));
 
+    // Filter large networks
+    var link_limiter = 200;
+    link.sort(function(a,b){
+      return d3.descending(a.value[emotion_dict[current_emotion].name],b.value[emotion_dict[current_emotion].name])});
+    link = link.filter(function(d,i){return i < link_limiter;});
+    // end experimental filter
 
     // Filters the node that have 0 outgoing and incoming edges
     node.each(function(d) {
@@ -94,7 +67,35 @@ function force(graph){
       });
     // end filter
 
-    // Append circles
+
+    // Constant line width
+    var max_value = get_max(link);
+    var min_value = get_min(link);
+
+    function get_max(link){
+      var max = 0;
+      link.each(function(l){
+        if(l.value[emotion_dict[current_emotion].name] > max){
+          max = l.value[emotion_dict[current_emotion].name];
+        }
+      })
+      return max;
+    }
+
+    function get_min(link){
+      var min = Infinity;
+      link.each(function(l){
+        if(l.value[emotion_dict[current_emotion].name] < min){
+          min = l.value[emotion_dict[current_emotion].name]
+        }
+      })
+      return min;
+    }
+    
+    var line_scale = d3.scaleLinear().domain([min_value,max_value]).range([1,10]);
+
+
+    // Append circles, lines and labels
     var circle = node.append('circle')
               .attr('r',radius)
               .attr("fill", function(d) { return color(d.group); });
@@ -102,6 +103,20 @@ function force(graph){
     var label = node.append('text')
         .text(function(d){return d.id;})
         .attr('dy',".35em");
+
+     var line = link.append('line')
+            .attr("stroke-width", function(d) { 
+        for(var i = 0;i <10; i++){
+          if(emotion[i] == true){
+            current_emotion = i.toString();
+            break;
+          }
+        }
+        if(current_emotion == null){current_emotion = "null";}
+        return line_scale(d.value[emotion_dict[current_emotion].name]); })
+      .style('stroke',function(){
+        return emotion_dict[current_emotion].color;
+      });
 
     // Hightlights connected nodes
     var toggle = 0;
@@ -169,7 +184,7 @@ function force(graph){
 
   function ticked() {
     var padding = 50;
-    link
+    line
         .attr("x1", function(d) { return d.source.x = Math.max(radius, Math.min(width - radius - padding, d.source.x)); })
         .attr("y1", function(d) { return d.source.y = Math.max(radius, Math.min(height - radius - padding, d.source.y)); })        
         .attr("x2", function(d) { return d.target.x = Math.max(radius, Math.min(width - radius - padding,d.target.x)); })

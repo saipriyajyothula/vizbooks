@@ -7,11 +7,10 @@ from itertools import combinations
 
 def interaction_json(directoryname,jsonfile):
     """
-    Creates a json file for interaction
+    Creates a json file for interaction between characters
     """
     with open(directoryname+jsonfile) as data_file:
         data = json.load(data_file)
-
 
     # get list of characters in a book
     character_list = get_bookcharacternames(data)
@@ -259,7 +258,6 @@ def matrix_tojson(matrix):
 
             force_dict["links"].append(temp_dict)
 
-
         # remove monologue persons
         chars = []
         for link in force_dict["links"]:
@@ -304,5 +302,5 @@ def interaction_maincall(directoryname,filename):
     force = matrix_tojson(final_matrix)
     force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
 
-# if __name__ == "__main__":
-#     interaction_maincall("","")
+if __name__ == "__main__":
+    interaction_maincall("../Data/","modparadata.json")
