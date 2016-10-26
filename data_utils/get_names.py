@@ -46,7 +46,7 @@ def get_characternames(para):
     text = Text(para)
     for sentence in text.sentences:
         for entity in sentence.entities:
-            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
+            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii') and not entity[0].isupper():
                 character_list.append(entity[0])
    
     if not character_list:
@@ -100,8 +100,8 @@ def get_bookcharacternames(data):
         """
         children = data["children"]
         for child in children:
-            if "value" in child.keys():
-                temp_list = get_characternames(child["value"])
+            if "prevalue" in child.keys():
+                temp_list = get_characternames(child["prevalue"])
                 if temp_list is None:
                     return
                 else:

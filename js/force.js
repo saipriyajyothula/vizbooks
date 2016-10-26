@@ -102,7 +102,8 @@ function force(graph){
     
     var label = node.append('text')
         .text(function(d){return d.id;})
-        .attr('dy',".35em");
+        .attr('dy',".35em")
+        .style('font-size',"11px");
 
      var line = link.append('line')
             .attr("stroke-width", function(d) { 
@@ -158,14 +159,21 @@ function force(graph){
               return d.id==o.source.id | d.id==o.target.id ? 1 : 0.2;
           });
           circle.transition().attr("r",function(o){
-            return o.id == d.id?10:radius;});
+            return o.id == d.id?radius + 6:radius;})
+          .attr("fill",function(o){ return o.id==d.id?"forestgreen":color(d.group);});
+
+          label.transition().style('font-size',
+            function(o){ return o.id==d.id?"15px":"11px";});
+
           toggle = 1;
 
       } else {
           //Put them back to starting opacity
           node.style("opacity", 1);
           link.style("opacity", 0.8);
-          circle.transition().attr('r',radius);
+          circle.transition().attr('r',radius)
+                    .attr("fill", function(d) { return color(d.group); });
+          label.transition().style('font-size',"11px");
           toggle = 0;
       }
     }

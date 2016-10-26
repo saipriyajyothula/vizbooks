@@ -1,7 +1,6 @@
 import json,pandas as pd,numpy as np
 from textblob import TextBlob
 
-
 def emotions_csvtojson(directoryname,filename):
     """
     Create a json for emotions csv
@@ -19,7 +18,6 @@ def emotions_csvtojson(directoryname,filename):
     with open(directoryname+"word_vec.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = True,indent = 4,separators = (',',':'))
 
-
 def get_emotions(para):
     """
     Get the emotions given the paragraph(list of sentences)
@@ -32,7 +30,7 @@ def get_emotions(para):
         word_vec[keys] = np.array(list(word_vec[keys].encode('ascii')),dtype = "|S4").astype(np.float)
 
     summer = np.zeros(10)
-    if para is list:
+    if isinstance(para,list):
         for sentences in para:
             words = sentences.split(" ")
             # vectorize the words
@@ -53,9 +51,7 @@ def get_emotions(para):
     for keys in data.keys():
         data[keys] = str(data[keys][0])
 
-    
     return data
-
 
 # if __name__ == "__main__":
 #     emotions_csvtojson("../Data/","NRCEmotionLexicon.csv")

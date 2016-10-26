@@ -27,7 +27,7 @@ def interaction_json(directoryname,jsonfile):
                 temp_dict = {}
 
                 # get characters in the paragraph
-                val = get_characternames(i["value"])
+                val = get_characternames(i["prevalue"])
                 # if no characters in paragraph
                 if val is None:
                     # get paragraph name
@@ -41,28 +41,6 @@ def interaction_json(directoryname,jsonfile):
                     temp_dict["partners"] = list(set(val))
                     i["partners"] = list(set(val))
 
-                # sent_partners = []
-                # for sent in i["value"]:
-                #     # get characters in the paragraph
-                #     val = get_characternames(sent.encode('ascii'))
-                #     if val is None:
-                #         continue
-                #     else:
-                #         sent_partners.append(list(set(val)))
-                #
-                # # if characters in paragraph
-                # if sent_partners:
-                #     # get paragraph name
-                #     temp_dict["name"] = i["name"]
-                #     # unique values
-                #     temp_dict["partners"] = sent_partners
-                #     i["partners"] = sent_partners
-                # else:
-                #     # get paragraph name
-                #     temp_dict["name"] = i["name"]
-                #     temp_dict["partners"] = []
-                #     i["partners"] = []
-
                 conversation_partners.append(temp_dict)
             child["conversation"] = conversation_partners
             chapter_list.append(child)
@@ -72,7 +50,7 @@ def interaction_json(directoryname,jsonfile):
 
     data = recursive_extractor(data)
 
-    with open(directoryname+"char"+jsonfile,"wb") as data_file:
+    with open(directoryname+"charmodparadata.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
 
@@ -163,7 +141,7 @@ def interaction_panel(directoryname,jsonfile):
         for child in chap["children"]:
             partners = child["partners"]
             # paragraph list
-            para_list = child["value"]
+            para_list = child["prevalue"]
             # Combination of list and add values
             for subsets in combinations(partners,2):
                 index_val,col_val = subsets
@@ -173,13 +151,6 @@ def interaction_panel(directoryname,jsonfile):
                         emotion_dict = get_emotions(sent)
                         for key in emotion_dict.keys():
                             df.loc[index_val,col_val,key] += float(emotion_dict[key])
-                # # for paragraph
-                # for sent in para_list:
-                #     if (index_val) and (col_val) in sent:
-                #         emotion_dict = get_emotions(para_list) # probably useless; emotion_dict = child["sentiment"]
-                #         for key in emotion_dict.keys():
-                #             df.loc[index_val,col_val,key] += float(emotion_dict[key])
-                #         break
 
         return df
 
@@ -285,16 +256,6 @@ def interaction_maincall(directoryname,filename):
     """
     interaction_json(directoryname,filename)
 
-    # # count force json
-    # matrix = interaction_matrix("../Data/","charmodparadata.json")
-    # force = matrix_tojson(matrix)
-    # force_jsoncreator(force,"../Data/","forceinteraction_count.json")
-
-    # # emotion force json
-    # matrix = interaction_panel("../Data/","charmodparadata.json")
-    # force = matrix_tojson(matrix)
-    # force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
-
     # count and emotion force json
     matrix = interaction_matrix("../Data/","charmodparadata.json")
     panel = interaction_panel("../Data/","charmodparadata.json")
@@ -303,4 +264,5 @@ def interaction_maincall(directoryname,filename):
     force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
 
 if __name__ == "__main__":
-    interaction_maincall("../Data/","modparadata.json")
+    interaction_maincall("../Data/","modOliver_Twist_paradata.json")
+    # interaction_maincall("../Data/","modparadata.json")

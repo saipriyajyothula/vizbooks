@@ -72,6 +72,7 @@ def recursive_paracombiner(data):
     count = 0
     children_list = []
     text = []
+    pre_text = []
 
     for i,child in enumerate(data):
         # combine 6 paragraphs
@@ -83,9 +84,12 @@ def recursive_paracombiner(data):
             para_dict["sentiment"] = ""
             para_dict["children"] = ""
             para_dict["value"] = text
+            para_dict["prevalue"] = pre_text
             children_list.append(para_dict)
             text = []
+            pre_text = []
         text.append(child["value"])
+        pre_text.append(child["prevalue"])
 
     # combine the residual paragraphs
     if (i+1)%6 != 0:
@@ -95,9 +99,10 @@ def recursive_paracombiner(data):
         para_dict["sentiment"] = ""
         para_dict["children"] = ""
         para_dict["value"] = text
+        para_dict["prevalue"] = pre_text
         children_list.append(para_dict)
 
     return children_list
 
 # if __name__ == "__main__":
-#     shortener(directoryname,jsonfile)
+    # shortener(directoryname,jsonfile)
