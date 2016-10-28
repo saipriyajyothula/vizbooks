@@ -20,23 +20,23 @@
 
 
 .active{
-	opacity: 1;
+  display: inline-block;
 }
 
 .hidden{
-	opacity:0;
+  display: none;
 }
 
-.links line {
+.forcelinks line {
   stroke-opacity: 0.8;
 }
 
-.nodes circle {
+.forcenodes circle {
   stroke: #fff;
   stroke-width: 1.5px;
 }
 
-.nodes text {
+.forcenodes text {
   font: 11px sans-serif;
   pointer-events: None;
 }

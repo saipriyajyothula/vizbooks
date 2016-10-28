@@ -1,53 +1,56 @@
-function force(graph){
-  var width = 750,
-      height = 650,
-      radius = 6;
+function force(graph,emotion_dict,current_emotion,emotion){
+  var width = 850,
+      height = 750,
+      radius = 9,
+      textsize = 15;
 
-  var svg = d3.select("body").append("svg")
+  var forcesvg = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height);
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-  var manybody = d3.forceManyBody().strength([-600]);
+  var manybody = d3.forceManyBody().strength([-350]),
+      simlink = d3.forceLink().id(function(d) { return d.id; });
 
   var simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(function(d) { return d.id; }))
+      .force("link", simlink)
       .force("charge", manybody)
-      .force("center", d3.forceCenter(width / 2, height / 3));
+      .force("center", d3.forceCenter(width/2, height/2 - 75));
       
 
-  var link = svg.selectAll(".links")
+  var forcelink = forcesvg.selectAll(".forcelinks")
       .data(graph.links)
       .enter().append("g")
-      .attr("class", "links");
+      .attr("class", "forcelinks");
 
 
-  var node = svg.selectAll(".node")
+  var forcenode = forcesvg.selectAll(".forcenodes")
           .data(graph.nodes)
           .enter().append('g')
-          .attr("class","nodes")
+          .attr("class","forcenodes")
           .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
 
+
     // Filter large networks
-    var link_limiter = 200;
-    link.sort(function(a,b){
+    var link_limiter = 100;
+    forcelink.sort(function(a,b){
       return d3.descending(a.value[emotion_dict[current_emotion].name],b.value[emotion_dict[current_emotion].name])});
-    link = link.filter(function(d,i){return i < link_limiter;});
+    forcelink = forcelink.filter(function(d,i){return i < link_limiter;});
     // end experimental filter
 
     // Filters the node that have 0 outgoing and incoming edges
-    node.each(function(d) {
+    forcenode.each(function(d) {
         d.inDegree = 0;
         d.outDegree = 0;
     });
 
-    link.each(function(d) {
+    forcelink.each(function(d) {
       if(d.value[emotion_dict[current_emotion].name] > 0){
-          node.each(function(l){
+          forcenode.each(function(l){
           if(l.id == d.source){
               l.outDegree += 1;
           }
@@ -58,23 +61,24 @@ function force(graph){
                 });
               }});
 
-      node = node.filter(function(d){
+      forcenode = forcenode.filter(function(d){
         return d.outDegree > 0 || d.inDegree >  0;
       });
       
-      link = link.filter(function(l){
+
+      forcelink = forcelink.filter(function(l){
         return l.value[emotion_dict[current_emotion].name] > 0;
       });
     // end filter
 
 
-    // Constant line width
-    var max_value = get_max(link);
-    var min_value = get_min(link);
+    // line width scale
+    var max_value = get_max(forcelink);
+    var min_value = get_min(forcelink);
 
-    function get_max(link){
+    function get_max(forcelink){
       var max = 0;
-      link.each(function(l){
+      forcelink.each(function(l){
         if(l.value[emotion_dict[current_emotion].name] > max){
           max = l.value[emotion_dict[current_emotion].name];
         }
@@ -82,9 +86,9 @@ function force(graph){
       return max;
     }
 
-    function get_min(link){
+    function get_min(forcelink){
       var min = Infinity;
-      link.each(function(l){
+      forcelink.each(function(l){
         if(l.value[emotion_dict[current_emotion].name] < min){
           min = l.value[emotion_dict[current_emotion].name]
         }
@@ -96,16 +100,17 @@ function force(graph){
 
 
     // Append circles, lines and labels
-    var circle = node.append('circle')
+    var forcecircle = forcenode.append('circle')
               .attr('r',radius)
               .attr("fill", function(d) { return color(d.group); });
     
-    var label = node.append('text')
+    var forcelabel = forcenode.append('text')
         .text(function(d){return d.id;})
         .attr('dy',".35em")
-        .style('font-size',"11px");
+        .attr('dx',".5em")
+        .style('font-size',textsize.toString() + "px");
 
-     var line = link.append('line')
+     var forceline = forcelink.append('line')
             .attr("stroke-width", function(d) { 
         for(var i = 0;i <10; i++){
           if(emotion[i] == true){
@@ -123,62 +128,62 @@ function force(graph){
     var toggle = 0;
     var linkedByIndex = {};
     
-        node.each(function(d){
-          linkedByIndex[d.id + "," + d.id] = 1;
+      forcenode.each(function(d){
+        linkedByIndex[d.id + "," + d.id] = 1;
+      })
+
+      forcelink.each(function (l) {
+        var s,t;
+        forcenode.each(function(d){
+          if(d.id == l.source){
+
+            s = d.id;
+          }
+          if(d.id == l.target){
+            t = d.id;
+          }
+          
         })
+        linkedByIndex[s + "," + t] = 1;});
 
-        link.each(function (l) {
-          var s,t;
-          node.each(function(d){
-            if(d.id == l.source){
-
-              s = d.id;
-            }
-            if(d.id == l.target){
-              t = d.id;
-            }
-            
-          })
-          linkedByIndex[s + "," + t] = 1;});
-
-        function neighboring(a, b) {
-          return linkedByIndex[a.id + "," + b.id];
-        }
+      function neighboring(a, b) {
+        return linkedByIndex[a.id + "," + b.id];
+      }
 
     function connectedNodes() {
        
       if (toggle == 0) {
           //Reduce the opacity of all but the neighbouring nodes
           d = d3.select(this).node().__data__;
-          node.style("opacity", function (o) {
+          forcenode.style("opacity", function (o) {
               
               return neighboring(d, o) | neighboring(o, d) ? 1 : 0.2;
           });
-          link.style("opacity", function (o) {
+          forcelink.style("opacity", function (o) {
 
               return d.id==o.source.id | d.id==o.target.id ? 1 : 0.2;
           });
-          circle.transition().attr("r",function(o){
+          forcecircle.transition().attr("r",function(o){
             return o.id == d.id?radius + 6:radius;})
           .attr("fill",function(o){ return o.id==d.id?"forestgreen":color(d.group);});
 
-          label.transition().style('font-size',
-            function(o){ return o.id==d.id?"15px":"11px";});
+          forcelabel.transition().style('font-size',
+            function(o){ return o.id==d.id? (textsize + 10).toString() + "px":textsize.toString() + "px";});
 
           toggle = 1;
 
       } else {
           //Put them back to starting opacity
-          node.style("opacity", 1);
-          link.style("opacity", 0.8);
-          circle.transition().attr('r',radius)
+          forcenode.style("opacity", 1);
+          forcelink.style("opacity", 0.8);
+          forcecircle.transition().attr('r',radius)
                     .attr("fill", function(d) { return color(d.group); });
-          label.transition().style('font-size',"11px");
+          forcelabel.transition().style('font-size',textsize.toString() + "px");
           toggle = 0;
       }
     }
     
-    node.on('click', connectedNodes);
+    forcenode.on('click', connectedNodes);
     // end function
 
 
@@ -191,18 +196,18 @@ function force(graph){
     
 
   function ticked() {
-    var padding = 50;
-    line
+    var padding = 100;
+    forceline
         .attr("x1", function(d) { return d.source.x = Math.max(radius, Math.min(width - radius - padding, d.source.x)); })
-        .attr("y1", function(d) { return d.source.y = Math.max(radius, Math.min(height - radius - padding, d.source.y)); })        
+        .attr("y1", function(d) { return d.source.y = Math.max(radius, Math.min(height - radius, d.source.y)); })        
         .attr("x2", function(d) { return d.target.x = Math.max(radius, Math.min(width - radius - padding,d.target.x)); })
-        .attr("y2", function(d) { return d.target.y = Math.max(radius, Math.min(height - radius - padding, d.target.y)); });
+        .attr("y2", function(d) { return d.target.y = Math.max(radius, Math.min(height - radius, d.target.y)); });
         
-    circle
+    forcecircle
         .attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius - padding, d.x)); })
-        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius - padding, d.y)); });
+        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); });
     
-    label
+    forcelabel
         .attr('x',function(d){return d.x;})
         .attr('y',function(d){return d.y;});
 
@@ -225,5 +230,8 @@ function force(graph){
     d.fx = null;
     d.fy = null;
   }
-  // end functions for dragging  
+  // end functions for dragging 
+
+  // show similar images
+  //sim_last(similar,dummyclick); 
 }
