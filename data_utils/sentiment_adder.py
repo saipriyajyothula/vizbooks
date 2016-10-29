@@ -97,6 +97,6 @@ def recursivechap_emotion(data):
 
     return data
 
-# if __name__ == "__main__":
-#     mainemotion_adder("../Data/","modOliver_Twist_paradata.json")
+if __name__ == "__main__":
+    mainemotion_adder("../Data/","modPride_and_Prejudice_paradata.json")
     # mainemotion_adder(directoryname,jsonfile)

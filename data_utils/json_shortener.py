@@ -105,4 +105,4 @@ def recursive_paracombiner(data):
     return children_list
 
 # if __name__ == "__main__":
-    # shortener(directoryname,jsonfile)
+#     shortener("directoryname","jsonfile")
