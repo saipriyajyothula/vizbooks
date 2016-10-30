@@ -11,7 +11,7 @@ def shortener(directoryname,filename):
     data["children"] = para_combiner(data["children"])
     data["children"] = chapter_combiner(data["children"])
 
-    with open(directoryname + "mod" + filename,"wb") as data_file:
+    with open(directoryname + "original.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
 def chapter_combiner(data):
@@ -105,4 +105,4 @@ def recursive_paracombiner(data):
     return children_list
 
 # if __name__ == "__main__":
-#     shortener("directoryname","jsonfile")
+#     shortener(directoryname,jsonfile)

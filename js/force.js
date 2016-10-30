@@ -1,22 +1,25 @@
 function force(graph,emotion_dict,current_emotion,emotion){
-  var width = 850,
-      height = 750,
-      radius = 9,
-      textsize = 15;
+  var forcewidth = 850,
+      forceheight = 850,
+      forceradius = 9,
+      forcetextsize = 15;
 
   var forcesvg = d3.select("body").append("svg")
-      .attr("width", width)
-      .attr("height", height);
+      .attr("width", forcewidth)
+      .attr("height", forceheight);
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-  var manybody = d3.forceManyBody().strength([-350]),
+  var manybody = d3.forceManyBody().strength([-500]),
       simlink = d3.forceLink().id(function(d) { return d.id; });
+
+  var forcecollide = d3.forceCollide().radius([1]);
 
   var simulation = d3.forceSimulation()
       .force("link", simlink)
       .force("charge", manybody)
-      .force("center", d3.forceCenter(width/2, height/2 - 75));
+      .force("center", d3.forceCenter(forcewidth/2, forceheight/2 - 75))
+      .force("collide",forcecollide);
       
 
   var forcelink = forcesvg.selectAll(".forcelinks")
@@ -36,7 +39,7 @@ function force(graph,emotion_dict,current_emotion,emotion){
 
 
     // Filter large networks
-    var link_limiter = 100;
+    var link_limiter = 75;
     forcelink.sort(function(a,b){
       return d3.descending(a.value[emotion_dict[current_emotion].name],b.value[emotion_dict[current_emotion].name])});
     forcelink = forcelink.filter(function(d,i){return i < link_limiter;});
@@ -101,14 +104,14 @@ function force(graph,emotion_dict,current_emotion,emotion){
 
     // Append circles, lines and labels
     var forcecircle = forcenode.append('circle')
-              .attr('r',radius)
+              .attr('r',forceradius)
               .attr("fill", function(d) { return color(d.group); });
     
     var forcelabel = forcenode.append('text')
         .text(function(d){return d.id;})
         .attr('dy',".35em")
         .attr('dx',".5em")
-        .style('font-size',textsize.toString() + "px");
+        .style('font-size',forcetextsize.toString() + "px");
 
      var forceline = forcelink.append('line')
             .attr("stroke-width", function(d) { 
@@ -164,11 +167,11 @@ function force(graph,emotion_dict,current_emotion,emotion){
               return d.id==o.source.id | d.id==o.target.id ? 1 : 0.2;
           });
           forcecircle.transition().attr("r",function(o){
-            return o.id == d.id?radius + 6:radius;})
+            return o.id == d.id?forceradius + 6:forceradius;})
           .attr("fill",function(o){ return o.id==d.id?"forestgreen":color(d.group);});
 
           forcelabel.transition().style('font-size',
-            function(o){ return o.id==d.id? (textsize + 10).toString() + "px":textsize.toString() + "px";});
+            function(o){ return o.id==d.id? (forcetextsize + 10).toString() + "px":forcetextsize.toString() + "px";});
 
           toggle = 1;
 
@@ -176,9 +179,9 @@ function force(graph,emotion_dict,current_emotion,emotion){
           //Put them back to starting opacity
           forcenode.style("opacity", 1);
           forcelink.style("opacity", 0.8);
-          forcecircle.transition().attr('r',radius)
+          forcecircle.transition().attr('r',forceradius)
                     .attr("fill", function(d) { return color(d.group); });
-          forcelabel.transition().style('font-size',textsize.toString() + "px");
+          forcelabel.transition().style('font-size',forcetextsize.toString() + "px");
           toggle = 0;
       }
     }
@@ -198,14 +201,14 @@ function force(graph,emotion_dict,current_emotion,emotion){
   function ticked() {
     var padding = 100;
     forceline
-        .attr("x1", function(d) { return d.source.x = Math.max(radius, Math.min(width - radius - padding, d.source.x)); })
-        .attr("y1", function(d) { return d.source.y = Math.max(radius, Math.min(height - radius, d.source.y)); })        
-        .attr("x2", function(d) { return d.target.x = Math.max(radius, Math.min(width - radius - padding,d.target.x)); })
-        .attr("y2", function(d) { return d.target.y = Math.max(radius, Math.min(height - radius, d.target.y)); });
+        .attr("x1", function(d) { return d.source.x = Math.max(forceradius, Math.min(forcewidth - forceradius - padding, d.source.x)); })
+        .attr("y1", function(d) { return d.source.y = Math.max(forceradius, Math.min(forceheight - forceradius, d.source.y)); })        
+        .attr("x2", function(d) { return d.target.x = Math.max(forceradius, Math.min(forcewidth - forceradius - padding,d.target.x)); })
+        .attr("y2", function(d) { return d.target.y = Math.max(forceradius, Math.min(forceheight - forceradius, d.target.y)); });
         
     forcecircle
-        .attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius - padding, d.x)); })
-        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); });
+        .attr("cx", function(d) { return d.x = Math.max(forceradius, Math.min(forcewidth - forceradius - padding, d.x)); })
+        .attr("cy", function(d) { return d.y = Math.max(forceradius, Math.min(forceheight - forceradius, d.y)); });
     
     forcelabel
         .attr('x',function(d){return d.x;})

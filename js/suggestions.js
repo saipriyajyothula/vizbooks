@@ -24,6 +24,5 @@ function sim_last(similar,dummyclick){
 
             var z = null;
             d3.selectAll(".imgs").on('click',function(d){z = d});
-            //dummyclick(z);
             
 }

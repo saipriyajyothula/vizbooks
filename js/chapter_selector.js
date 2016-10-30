@@ -3,7 +3,7 @@ function networkcall(){
 
   var chapter = new Array(9);
   for(var i = 0;i < chapter.length; i++){
-      chapter[i] = false;
+      chapter[i] = true;
     }
 
   chapter[0] = true;
@@ -11,8 +11,8 @@ function networkcall(){
 
   // emotion selector
   var emotion_dict = {
-    "0": {"name":"Positive","color":"green"},
-    "1": {"name":"Negative","color":"red"},
+    "0": {"name":"Positive","color":""},
+    "1": {"name":"Negative","color":""},
     "2": {"name":"Anger","color":""},
     "3": {"name":"Anticipation","color":""},
     "4": {"name":"Disgust","color":""},
@@ -36,7 +36,7 @@ function networkcall(){
 
   function force_call(){
     // create data
-    d3.json("../Data/forceinteraction_emotions.json", function(error, graph) {
+    d3.json("../Data/second.json", function(error, graph) {
       if (error) throw error;
 
       data = graph["force_list"];

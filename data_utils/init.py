@@ -2,21 +2,20 @@ from json_shortener import *
 from sentiment import *
 from sentiment_adder import *
 from interaction import *
-from paragraphjson import *
 from character_sentiment import *
 
 if __name__ == "__main__":
-    directoryname = "../Data"
+    directoryname = "../Data/"
     # shortens the json by combining paragraphs and chapters
+    jsonfile = "Oliver_Twist_paradata.json"
     shortener(directoryname,jsonfile)
     # created only once - dictionary of emotion word vector
     # emotions_csvtojson("../Data/","NRCEmotionsLexicon.csv")
-    # adds emotions to jsonfile;used for tree
-    mainemotion_adder(directoryname,jsonfile)
-    # adds interactions field to json
-    interaction_json(directoryname,jsonfile)
-    # creates a json for force network
-    interaction_maincall(directoryname,jsonfile)
-    # creates a json for bar graph
-    char_emotionadder(directoryname,jsonfile)
+
+    # adds emotions to jsonfile;used for tree (1st viz)
+    mainemotion_adder(directoryname,"original.json")
+    # creates a json for force network (2nd viz)
+    interaction_maincall(directoryname,"original.json")
+    # creates a json for bar graph (3rd vis)
+    char_emotionadder(directoryname,"original.json")
 

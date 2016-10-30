@@ -2,19 +2,7 @@ import json
 from pprint import pprint 
 from sentiment import *
 from get_names import *
-
-def convert(input):
-    """
-    Converts input dictionary from unicode to utf
-    """
-    if isinstance(input, dict):
-        return {convert(key): convert(value) for key, value in input.iteritems()}
-    elif isinstance(input, list):
-        return [convert(element) for element in input]
-    elif isinstance(input, unicode):
-        return input.encode('utf-8')
-    else:
-        return input
+from sentiment_adder import convert
 
 def char_emotionadder(directoryname,filename):
     """
@@ -99,5 +87,5 @@ def characterjson_creator(data):
 
     return data
 
-if __name__ == "__main__":
-    char_emotionadder("../Data/","modOliver_Twist_paradata.json")
+# if __name__ == "__main__":
+#     char_emotionadder(directoryname,jsonfile)

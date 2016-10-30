@@ -39,6 +39,8 @@ def get_characternames(para):
     """
     Get the list of character from the paragraph
     """
+    ignore_list = ["Mr","Mrs","I","He","She","Ah","Aha","Everybody","Mister","Master","Miss","Ugh"]
+
     character_list = []
     if isinstance(para,list):
         para = " ".join(para)
@@ -46,47 +48,13 @@ def get_characternames(para):
     text = Text(para)
     for sentence in text.sentences:
         for entity in sentence.entities:
-            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii') and not entity[0].isupper():
+            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii') and not entity[0].isupper() and not entity[0] in ignore_list:
                 character_list.append(entity[0])
    
     if not character_list:
         return None
-
     return [i.encode('ascii') for i in character_list]
 
-def get_locationnames(para):
-    """
-    Get locations from paragraph
-    """
-    para = " ".join(para)
-    text = Text(para)
-    location_list = []
-    for sent in text.sentences:
-        for entity in sent.entities:
-            if entity.tag == "I-LOC" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
-                location_list.append(entity[0])
-    
-    if not location_list:
-        return None
-
-    return [i.encode('ascii') for i in location_list]
-
-def get_organizationnames(para):
-    """
-    Get organizations from paragraph
-    """
-    para = " ".join(para)
-    text = Text(para)
-    organization_list = []
-    for sent in text.sentences:
-        for entity in sent.entities:
-            if entity.tag == "I-ORG" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii'):
-                organization_list.append(entity[0])
-    
-    if not organization_list:
-        return None
-
-    return [i.encode('ascii') for i in organization_list]
 
 def get_bookcharacternames(data):
     """
@@ -111,6 +79,5 @@ def get_bookcharacternames(data):
                 recursive_character(child)
 
     recursive_character(data)
-
     return list(set(character_list))
 

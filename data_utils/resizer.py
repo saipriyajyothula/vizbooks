@@ -9,13 +9,13 @@ def resize_image(directoryname):
     """
     Resizes all images in the directory
     """
-    size = 100,100
+    size = 125,125
     files_list = [f for f in listdir(directoryname) if isfile(join(directoryname, f))]
     for f in files_list:
         im = Image.open(directoryname + "/" + f)
         im = im.resize(size,Image.ANTIALIAS)
-        im.save(directoryname + "/" + f,"JPEG")
+        im.save(directoryname + "/exp/" + f,"JPEG")
 
 if __name__ == "__main__":
-    directoryname = ""
+    directoryname = "../Data/Book_Covers"
     resize_image(directoryname)

@@ -27,10 +27,10 @@ def mainemotion_adder(directoryname,filename):
     data = recursive_emotion(data)
 
     # save json file
-    with open(directoryname + "emo.json","wb") as data_file:
+    with open(directoryname + "first.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
 
-    allemotion_adder(directoryname,"emo.json")
+    allemotion_adder(directoryname,"first.json")
 
 
 def allemotion_adder(directoryname,filename):
@@ -47,7 +47,7 @@ def allemotion_adder(directoryname,filename):
     data = recursivechap_emotion(data)
 
     # save json file
-    with open(directoryname + "emo.json","wb") as data_file:
+    with open(directoryname + "first.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4, separators = (',',':'))
 
 def recursive_emotion(data):
@@ -97,6 +97,5 @@ def recursivechap_emotion(data):
 
     return data
 
-if __name__ == "__main__":
-    mainemotion_adder("../Data/","modPride_and_Prejudice_paradata.json")
-    # mainemotion_adder(directoryname,jsonfile)
+# if __name__ == "__main__":
+#     mainemotion_adder(directoryname,jsonfile)

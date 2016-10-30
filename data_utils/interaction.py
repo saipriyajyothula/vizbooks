@@ -50,7 +50,7 @@ def interaction_json(directoryname,jsonfile):
 
     data = recursive_extractor(data)
 
-    with open(directoryname+"charmodparadata.json","wb") as data_file:
+    with open(directoryname+"second.json","wb") as data_file:
         json.dump(data,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
 
@@ -243,12 +243,6 @@ def matrix_tojson(matrix):
 
     return force_chap
     
-def force_jsoncreator(dictionaryname,directoryname,filename):
-    """
-    Creates a json file for force layout
-    """
-    with open(directoryname+filename,"wb") as data_file:
-        json.dump(dictionaryname,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
 def interaction_maincall(directoryname,filename):
     """
@@ -257,12 +251,12 @@ def interaction_maincall(directoryname,filename):
     interaction_json(directoryname,filename)
 
     # count and emotion force json
-    matrix = interaction_matrix("../Data/","charmodparadata.json")
-    panel = interaction_panel("../Data/","charmodparadata.json")
+    matrix = interaction_matrix(directoryname,"second.json")
+    panel = interaction_panel(directoryname,"second.json")
     final_matrix = matrix_combiner(matrix,panel)
     force = matrix_tojson(final_matrix)
-    force_jsoncreator(force,"../Data/","forceinteraction_emotions.json")
+    with open(directoryname+ "second.json","wb") as data_file:
+        json.dump(force,data_file,sort_keys = False,indent = 4,separators = (',',':'))
 
-if __name__ == "__main__":
-    interaction_maincall("../Data/","modOliver_Twist_paradata.json")
-    # interaction_maincall("../Data/","modparadata.json")
+# if __name__ == "__main__":
+#     interaction_maincall(directoryname,jsonfile)
