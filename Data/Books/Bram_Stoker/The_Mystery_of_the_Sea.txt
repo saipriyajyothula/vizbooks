@@ -781,7 +781,7 @@ general scheme of things.
 
 It was now the 28th July so, if it were to take place at the Lammas-tide
 of the current year, we should know soon the full measure of the
-denouêment. There was but one thing wanting to complete the conditions
+denoument. There was but one thing wanting to complete the conditions
 of the prophecy. The weather had been abnormally dry, and there might
 after all be no Lammas floods. To-day, however, the sky had been heavily
 overcast. Great black clouds which seemed to roll along tumbling over
@@ -1948,7 +1948,7 @@ approached.
 girl which made me feel as if we were old friends, and I spoke to her
 unconsciously in this strain. "It's all right. She's not there!"
 
-"Who?" she asked with unconsciousness of any arrière pensée, an
+"Who?" she asked with unconsciousness of any arrire pense, an
 unconsciousness similar to my own.
 
 "Gormala!" I answered.
@@ -5795,7 +5795,7 @@ excellent water supply. In the dungeon were chains and manacles and some
 implements of torture, all covered with the rust of centuries. We hoped
 that they had not been used. Marjory consoled herself with the thought
 that they had been placed there at the time of the building as part of
-the necessary furnishing of a mediæval castle. One room, the library,
+the necessary furnishing of a medival castle. One room, the library,
 was of great interest. It had not been built for the purpose, for there
 was no provision of light; but it must have been adapted to this use not
 long after the place was built. The woodwork of carved oak was early
@@ -7323,7 +7323,7 @@ see us, we guarded our movements by our misleading remarks concerning
 history and art. Deftly Marjory stretched sections of her gossamer
 thread from place to place, so that if any one went in the chapel their
 course must be marked by the broken threads. We finished near the door,
-and our artless, innocent, archæological conversation stopped there,
+and our artless, innocent, archological conversation stopped there,
 too. We strolled back to the castle, feeling sure that if there were any
 secret hiding place within the ruin we should have located the entrance
 to it in the morning.
@@ -13824,7 +13824,7 @@ represent the odd numbers "3" and "5"--one mark standing for "three" and
 two marks for "five."
 
 Thus "a a a a a" would be represented by "a?" or any other letter with
-two dots below: "a a a a b" by ä b, or any other letters similarly
+two dots below: "a a a a b" by  b, or any other letters similarly
 treated. As any letter left plain would represent "a" and any letter
 dotted in the body would represent "b" the cipher is complete for
 application to any printed or written matter. As in the number cipher,
