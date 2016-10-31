@@ -26,7 +26,7 @@ def chapter_combiner(data):
 
     for i,chap in enumerate(data):
         # combine 6 chapters
-        if (i+1)%6 == 0:
+        if (i+1)%3 == 0:
             main_count += 1
             # create chapter dictionary
             chapter_dict = {}
@@ -44,7 +44,7 @@ def chapter_combiner(data):
             children_list.append(paragraphs)
 
     # combine the residual chapters
-    if (i+1)%6 != 0:
+    if (i+1)%3 != 0:
         main_count += 1
         chapter_dict = {}
         chapter_dict["name"] = "Chapter_" + str(main_count)
@@ -76,7 +76,7 @@ def recursive_paracombiner(data):
 
     for i,child in enumerate(data):
         # combine 6 paragraphs
-        if (i+1)%6 == 0:
+        if (i+1)%10 == 0:
             count += 1
             para_dict = {}
             # create paragraph dictionary
@@ -92,7 +92,7 @@ def recursive_paracombiner(data):
         pre_text.append(child["prevalue"])
 
     # combine the residual paragraphs
-    if (i+1)%6 != 0:
+    if (i+1)%10 != 0:
         count += 1
         para_dict = {}
         para_dict["name"] = "Paragraph_" + str(count)

@@ -11,17 +11,8 @@ def preprocess(l):
                 temp+=' '
     return temp
 
-def is_ascii(s):
-    temp = []
-    for c in s:
-        if ord(c)>128:
-            c = ""
-        temp.append(c)
-    temp = "".join(temp)
-    return temp
 
-
-bookname = "David_Copperfield"
+bookname = "Anne_of_the_Island"
 f= open(bookname+".txt","r")
 data = f.read()
 f.close()
@@ -31,20 +22,12 @@ data =[i.replace("\'",'"') for i in data]
 data =[i.replace('"',"'") for i in data]
 # data = [i.encode('ascii') if is_ascii(i) else "" for i in data]
 
-temp = []
-for i in data:
-    temp.append(is_ascii(i))
-
-data = temp
-
-
-
 g=open(bookname+"_paradata.json","w")    
 chapternum = 0
 paragraphnum = 0
 g.write('{"name":"'+bookname.replace('_',' ')+'",\n"sentiment":"",\n"children":[')
 for i in range(len(data)):
-    if(re.search("CHAPTER \d", data[i])!= None):
+    if(re.search("CHAPTER [A-Z]", data[i])!= None):
         chapternum += 1
         g.write('\n{"name":"Chapter_'+str(chapternum)+'",\n"sentiment":"",\n"children":[')
     else:
@@ -54,7 +37,7 @@ for i in range(len(data)):
         else:
             g.write(',\n{\n"name":"Paragraph_'+str(paragraphnum)+'",\n"value":"'+data[i].strip()+'",\n"prevalue":"'+preprocess(data[i]).strip()+'",\n"sentiment":"",\n"children":""}')
     if(i+1!=len(data)):
-        if(re.search("CHAPTER \d", data[i+1])!= None):
+        if(re.search("CHAPTER [A-Z]", data[i+1])!= None):
             paragraphnum = 0
             g.write(']},')
 g.write(']}\n]}')
