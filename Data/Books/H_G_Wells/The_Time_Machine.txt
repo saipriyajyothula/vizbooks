@@ -1,9 +1,3 @@
-Project Gutenberg's The Time Machine, by H. G. (Herbert George) Wells
-
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.net
 CHAPTER 1
 
 
@@ -3189,7 +3183,7 @@ as everybody knows now, he has never returned.
 
 
 
-EPILOGUE
+CHAPTER 13
 
 
 One cannot choose but wonder. Will he ever return? It may be that he
