@@ -6,7 +6,7 @@
        {"img" :"Data/Book_Covers/exp/300.jpg","name" : "Ten Years Later", "author_name" : "Alexander Dumas", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/400.jpg","name" : "The Borgias", "author_name" : "Alexander Dumas", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/500.jpg","name" : "The Black Tulip", "author_name" : "Alexander Dumas", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/101.jpg","name" : "Dracula", "author_name" : "Bram Stroker", "directory_name" : ""},
+        {"img" :"Data/Book_Covers/exp/101.jpg","name" : "Dracula", "author_name" : "Bram Stroker", "directory_name" : "Data/Json_Data/101/"},
         {"img" :"Data/Book_Covers/exp/201.jpg","name" : "Dracula's guest", "author_name" : "Bram Stroker", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/301.jpg","name" : "The Mystery of the Sea", "author_name" : "Bram Stroker", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/401.jpg","name" : "The Jewel of Seven Stars", "author_name" : "Bram Stroker", "directory_name" : ""},
@@ -23,9 +23,10 @@
         {"img" :"Data/Book_Covers/exp/503.jpg","name" : "The Valley of Fear", "author_name" : "Conan Doyle", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/104.jpg","name" : "Pride and Prejudice", "author_name" : "Jane Austen", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/204.jpg","name" : "Sense and Sensibility", "author_name" : "Jane Austen", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/304.jpg","name" : "Emma", "author_name" : "Jane Austen", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/404.jpg","name" : "Northanger Abbey", "author_name" : "Jane Austen", "directory_name" : ""},
+        {"img" :"Data/Book_Covers/exp/304.jpg","name" : "Emma", "author_name" : "Jane Austen", "directory_name" : "Data/Json_Data/304/"},
+        {"img" :"Data/Book_Covers/exp/404.jpg","name" : "Northanger Abbey", "author_name" : "Jane Austen", "directory_name" : "Data/Json_Data/404/"},
         {"img" :"Data/Book_Covers/exp/504.jpg","name" : "Persuasion", "author_name" : "Jane Austen", "directory_name" : ""},
+        {"img" :"Data/Book_Covers/exp/604.jpg","name" : "Mansfield Park", "author_name" : "Jane Austen", "directory_name" : "Data/Json_Data/604/"},        
         {"img" :"Data/Book_Covers/exp/105.jpg","name" : "20000 Leagues Under the Sea", "author_name" : "Jules Verne", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/205.jpg","name" : "The Mysterious Island", "author_name" : "Jules Verne", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/305.jpg","name" : "Around the World in 80 days", "author_name" : "Jules Verne", "directory_name" : ""},
@@ -49,7 +50,7 @@
         {"img" :"Data/Book_Covers/exp/209.jpg","name" : "The Strange Case of Dr Jekyll and Hyde", "author_name" : "Robert Louis Stevenson", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/309.jpg","name" : "Treasure Island", "author_name" : "Robert Louis Stevenson", "directory_name" : ""},
         {"img" :"Data/Book_Covers/exp/110.jpg","name" : "The Time Machine", "author_name" : "H G Wells", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/111.jpg","name" : "Wuthering Heights", "author_name" : "Emily Bronte", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/112.jpg","name" : "The Scarlet Letter", "author_name" : "Nathaniel Hawthorne", "directory_name" : ""}
+        {"img" :"Data/Book_Covers/exp/111.jpg","name" : "Wuthering Heights", "author_name" : "Emily Bronte", "directory_name" : "Data/Json_Data/111/"},
+        {"img" :"Data/Book_Covers/exp/112.jpg","name" : "The Scarlet Letter", "author_name" : "Nathaniel Hawthorne", "directory_name" : "Data/Json_Data/112/"}
       
 ]}

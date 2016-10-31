@@ -1,5 +1,5 @@
 function force(graph,emotion_dict,current_emotion,emotion){
-  var forcewidth = 850,
+  var forcewidth = 1250,
       forceheight = 850,
       forceradius = 9,
       forcetextsize = 15;
@@ -10,15 +10,15 @@ function force(graph,emotion_dict,current_emotion,emotion){
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-  var manybody = d3.forceManyBody().strength([-300]),
+  var manybody = d3.forceManyBody().strength([-400]),
       simlink = d3.forceLink().id(function(d) { return d.id; });
 
-  var forcecollide = d3.forceCollide().radius([1]);
+  var forcecollide = d3.forceCollide().radius([3]);
 
   var simulation = d3.forceSimulation()
       .force("link", simlink)
       .force("charge", manybody)
-      .force("center", d3.forceCenter(forcewidth/2, forceheight/2 - 75))
+      .force("center", d3.forceCenter(forcewidth/2, forceheight/2 ))
       .force("collide",forcecollide);
       
 
@@ -234,7 +234,4 @@ function force(graph,emotion_dict,current_emotion,emotion){
     d.fy = null;
   }
   // end functions for dragging 
-
-  // show similar images
-  //sim_last(similar,dummyclick); 
 }

@@ -1,9 +1,9 @@
-function networkcall(mainsvg){
+function networkcall(directoryname){
   // chapter selector
 
   var chapter = new Array(9);
   for(var i = 0;i < chapter.length; i++){
-      chapter[i] = false;
+      chapter[i] = true;
     }
 
   chapter[0] = true;
@@ -36,7 +36,7 @@ function networkcall(mainsvg){
 
   function force_call(){
     // create data
-    d3.json("../Data/second.json", function(error, graph) {
+    d3.json(directoryname + "second.json", function(error, graph) {
       if (error) throw error;
 
       data = graph["force_list"];
