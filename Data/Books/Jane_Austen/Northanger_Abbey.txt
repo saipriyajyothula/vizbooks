@@ -971,7 +971,7 @@ like them best dark or fair?"
 think. Brown--not fair, and--and not very dark."
 
 "Very well, Catherine. That is exactly he. I have not forgot your
-description of Mr. Tilney--‘a brown skin, with dark eyes, and rather
+description of Mr. Tilney--'a brown skin, with dark eyes, and rather
 dark hair.' Well, my taste is different. I prefer light eyes, and as to
 complexion--do you know--I like a sallow better than any other. You must
 not betray me, if you should ever meet with one of your acquaintance
@@ -1059,7 +1059,7 @@ horse.
  But this detestation, though so just, was of short duration, for she
 looked again and exclaimed, "Delightful! Mr. Morland and my brother!"
 
-"Good heaven! ‘Tis James!" was uttered at the same moment by Catherine;
+"Good heaven! 'Tis James!" was uttered at the same moment by Catherine;
 and, on catching the young men's eyes, the horse was immediately checked
 with a violence which almost threw him on his haunches, and the servant
 having now scampered up, the gentlemen jumped out, and the equipage was
@@ -1122,9 +1122,9 @@ it a few weeks, till, I believe, it was convenient to have done with it.
 I happened just then to be looking out for some light thing of the kind,
 though I had pretty well determined on a curricle too; but I chanced to
 meet him on Magdalen Bridge, as he was driving into Oxford, last term:
-‘Ah! Thorpe,' said he, ‘do you happen to want such a little thing as
+'Ah! Thorpe,' said he, 'do you happen to want such a little thing as
 this? It is a capital one of the kind, but I am cursed tired of it.'
-‘Oh! D--,' said I; ‘I am your man; what do you ask?' And how much do you
+'Oh! D--,' said I; 'I am your man; what do you ask?' And how much do you
 think he did, Miss Morland?"
 
 "I am sure I cannot guess at all."
@@ -1516,7 +1516,7 @@ We are not talking about you."
 "But what is all this whispering about? What is going on?"
 
 "There now, I knew how it would be. You men have such restless
-curiosity! Talk of the curiosity of women, indeed! ‘Tis nothing. But be
+curiosity! Talk of the curiosity of women, indeed! 'Tis nothing. But be
 satisfied, for you are not to know anything at all of the matter."
 
 "And is that likely to satisfy me, do you think?"
@@ -2253,7 +2253,7 @@ time. You ought to be tired at the end of six weeks."
 "I do not think I should be tired, if I were to stay here six months."
 
 "Bath, compared with London, has little variety, and so everybody finds
-out every year. ‘For six weeks, I allow Bath is pleasant enough; but
+out every year. 'For six weeks, I allow Bath is pleasant enough; but
 beyond that, it is the most tiresome place in the world.' You would be
 told so by people of all descriptions, who come regularly every winter,
 lengthen their six weeks into ten or twelve, and go away at last because
@@ -3248,7 +3248,7 @@ novels amazingly."
 read nearly as many as women. I myself have read hundreds and hundreds.
 Do not imagine that you can cope with me in a knowledge of Julias and
 Louisas. If we proceed to particulars, and engage in the never-ceasing
-inquiry of ‘Have you read this?' and ‘Have you read that?' I shall soon
+inquiry of 'Have you read this?' and 'Have you read that?' I shall soon
 leave you as far behind me as--what shall I say?--I want an appropriate
 simile.--as far as your friend Emily herself left poor Valancourt when
 she went with her aunt into Italy. Consider how many years I have had
@@ -3264,7 +3264,7 @@ upon the binding."
 "Henry," said Miss Tilney, "you are very impertinent. Miss Morland, he
 is treating you exactly as he does his sister. He is forever finding
 fault with me, for some incorrectness of language, and now he is taking
-the same liberty with you. The word ‘nicest,' as you used it, did not
+the same liberty with you. The word 'nicest,' as you used it, did not
 suit him; and you had better change it as soon as you can, or we shall
 be overpowered with Johnson and Blair all the rest of the way."
 
@@ -3334,8 +3334,8 @@ deny; but in behalf of our most distinguished historians, I must observe
 that they might well be offended at being supposed to have no higher
 aim, and that by their method and style, they are perfectly well
 qualified to torment readers of the most advanced reason and mature
-time of life. I use the verb ‘to torment,' as I observed to be your own
-method, instead of ‘to instruct,' supposing them to be now admitted as
+time of life. I use the verb 'to torment,' as I observed to be your own
+method, instead of 'to instruct,' supposing them to be now admitted as
 synonymous."
 
 "You think me foolish to call instruction a torment, but if you had been
@@ -3343,7 +3343,7 @@ as much used as myself to hear poor little children first learning their
 letters and then learning to spell, if you had ever seen how stupid they
 can be for a whole morning together, and how tired my poor mother is
 at the end of it, as I am in the habit of seeing almost every day of my
-life at home, you would allow that ‘to torment' and ‘to instruct' might
+life at home, you would allow that 'to torment' and 'to instruct' might
 sometimes be used as synonymous words."
 
 "Very probably. But historians are not accountable for the difficulty
@@ -3780,7 +3780,7 @@ What do you think of it, Miss Morland? I say it is no bad notion."
 "I am sure I think it a very good one."
 
 "Do you? That's honest, by heavens! I am glad you are no enemy to
-matrimony, however. Did you ever hear the old song ‘Going to One Wedding
+matrimony, however. Did you ever hear the old song 'Going to One Wedding
 Brings on Another?' I say, you will come to Belle's wedding, I hope."
 
 "Yes; I have promised your sister to be with her, if possible."
@@ -4220,7 +4220,7 @@ Gloucestershire? I am almost ashamed to make the request, though its
 presumption would certainly appear greater to every creature in Bath
 than yourself. Modesty such as yours--but not for the world would I pain
 it by open praise. If you can be induced to honour us with a visit,
-you will make us happy beyond expression. ‘Tis true, we can offer you
+you will make us happy beyond expression. 'Tis true, we can offer you
 nothing like the gaieties of this lively place; we can tempt you neither
 by amusement nor splendour, for our mode of living, as you see, is plain
 and unpretending; yet no endeavours shall be wanting on our side to make
@@ -4641,7 +4641,7 @@ Miss Thorpe's, for supposing that her affection, or at least her good
 behaviour, is only to be secured by her seeing nothing of Captain
 Tilney? Is he safe only in solitude? Or is her heart constant to him
 only when unsolicited by anyone else? He cannot think this--and you may
-be sure that he would not have you think it. I will not say, ‘Do not
+be sure that he would not have you think it. I will not say, 'Do not
 be uneasy,' because I know that you are so, at this moment; but be as
 little uneasy as you can. You have no doubt of the mutual attachment
 of your brother and your friend; depend upon it, therefore, that
@@ -4811,7 +4811,7 @@ abbey."
 reads about?"
 
 "And are you prepared to encounter all the horrors that a building such
-as ‘what one reads about' may produce? Have you a stout heart? Nerves
+as 'what one reads about' may produce? Have you a stout heart? Nerves
 fit for sliding panels and tapestry?"
 
 "Oh! yes--I do not think I should be easily frightened, because there
@@ -4896,7 +4896,7 @@ importance--perhaps nothing but a considerable hoard of diamonds. At
 last, however, by touching a secret spring, an inner compartment will
 open--a roll of paper appears--you seize it--it contains many sheets of
 manuscript--you hasten with the precious treasure into your own chamber,
-but scarcely have you been able to decipher ‘Oh! Thou--whomsoever thou
+but scarcely have you been able to decipher 'Oh! Thou--whomsoever thou
 mayst be, into whose hands these memoirs of the wretched Matilda may
 fall'--when your lamp suddenly expires in the socket, and leaves you in
 total darkness."
@@ -6193,7 +6193,7 @@ For nine successive mornings, Catherine wondered over the repetition
 of a disappointment, which each morning became more severe: but, on
 the tenth, when she entered the breakfast-room, her first object was a
 letter, held out by Henry's willing hand. She thanked him as heartily
-as if he had written it himself. "‘Tis only from James, however," as she
+as if he had written it himself. "'Tis only from James, however," as she
 looked at the direction. She opened it; it was from Oxford; and to this
 purpose:
 
@@ -6904,7 +6904,7 @@ errand!"
 "How shall I tell you! Oh! How shall I tell you!"
 
 A new idea now darted into Catherine's mind, and turning as pale as her
-friend, she exclaimed, "‘Tis a messenger from Woodston!"
+friend, she exclaimed, "'Tis a messenger from Woodston!"
 
 "You are mistaken, indeed," returned Eleanor, looking at her most
 compassionately; "it is no one from Woodston. It is my father himself."
