@@ -1,54 +1,113 @@
 //Margins
 var margin = {top: 10, right: 50, bottom: 20, left: 50},
     width = 1500 - margin.left - margin.right,
-    height = 1000 - margin.top - margin.bottom;
+    height = 800 - margin.top - margin.bottom;
 
 
 function first_call(){
     
-    //Load data
+//Load data
 d3.json("Data/img.json",function(d){
     
     i = d.value;
     d3.shuffle(i);
 
-    var selected_img = "";
+    var selected_imgdir = "";
 
     //svg
-    var svg = d3.select("body").append("svg")
+
+    var svg = d3.select('body').append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-
-
-    var image_height = 125,
-        image_width = 125;
+        .attr('id','topsvg');
+      
+    
+    var image_height = 115,
+        image_width = 115;
 
     svg.append("svg:image").attr('id','home')
         .attr('xlink:href','Data/home.jpg')
-        .attr('x',width + 40).attr('y',10)
-        .attr('width',50).attr('height',50)
+        .attr('x',width - 20).attr('y',10)
+        .attr('width',40).attr('height',40)
         .on("click",function(){location.reload();});
+
+
+    /* Navigation
+    var nav1yloc = 370,
+        nav2yloc = 420;
+
+    var tempsvg = d3.select('#topsvg').append('g')
+            .attr("transform","translate(" + 60 + "," + 60 + ")")
+            .style('position','fixed');
+
+    var navi1 = tempsvg.append('circle').attr('id','navi1').attr('r',6)
+                .attr('cx',1400)
+                .attr('cy',nav1yloc)
+                .attr('fill','white')
+                .style('stroke','black');
+
+    var navi2 = tempsvg.append('circle').attr('id','navi2').attr('r',6)
+                .attr('cx',1400)
+                .attr('cy',nav2yloc)
+                .attr('fill','#cdd0d7')
+                .style('stroke','black');
+
+   
+    d3.select('#navi2').on('click',function(){
+        d3.transition()
+        .delay(200)
+        .duration(500)
+        .tween("scroll", scrollTween(document.body.getBoundingClientRect().height - window.innerHeight));
+        d3.select('#navi2').transition()
+        .delay(200)
+        .duration(500).attr('fill','white');
+        d3.select('#navi1').transition()
+        .delay(200)
+        .duration(500).attr('fill','#cdd0d7')
+
+    });
+
+    d3.select('#navi1').on('click',function(){
+        d3.transition()
+        .delay(200)
+        .duration(500)
+        .tween("scroll", scrollTween(0));
+        d3.select('#navi1').transition()
+        .delay(200)
+        .duration(500).attr('fill','white');
+        d3.select('#navi2').transition()
+        .delay(200)
+        .duration(500).attr('fill','#cdd0d7')
+    });
+
+    function scrollTween(offset) {
+      return function() {
+        var i = d3.interpolateNumber(window.pageYOffset || document.documentElement.scrollTop, offset);
+        return function(t) { scrollTo(width, i(t));
+            d3.select('#navi1').attr('cy',nav1yloc + i(t));
+            d3.select('#navi2').attr('cy',nav2yloc + i(t));
+         };
+      };
+    }
+    */
 
     //group
     var group = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    //var group2 = svg.append('g')
-      //          .attr("transform", "translate(" + width - margin.right - 20+ "," + margin.top - height - 20+ ")");
 
     //images
     var images = group.selectAll("image")
         .data(i).enter();
     
-
     var imgs = images.append("svg:image")
         .attr('class','imgs')
         .attr("xlink:href",function(d){return d.img;})
-        .attr('x',function(d,i){return (width - 200) - i%10 * image_width;})
-        .attr('y',function(d,i){return (height - 400) - Math.floor(i/10) * image_height;})
+        .attr('x',function(d,i){return (width - 150) - i%10 * (image_width + 15);})
+        .attr('y',function(d,i){return (height - 170) - Math.floor(i/10) * (image_height + 15);})
         .attr('width',image_width)
         .attr('height',image_height)
-        .attr('opacity',0.5);
+        .attr('opacity',0.8);
 
     var top_label = svg.append("text")
                 .attr('x',600).attr('y',30)
@@ -78,7 +137,7 @@ d3.json("Data/img.json",function(d){
         .on('mouseleave',function(d){
             d3.select(this)
             .transition()
-            .attr('opacity',0.5)
+            .attr('opacity',0.8)
             .attr('height',image_height)
             .attr('width',image_width);
 

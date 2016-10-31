@@ -4,13 +4,13 @@ function force(graph,emotion_dict,current_emotion,emotion){
       forceradius = 9,
       forcetextsize = 15;
 
-  var forcesvg = d3.select("body").append("svg")
+  var forcesvg = d3.select('body').append("svg")
       .attr("width", forcewidth)
       .attr("height", forceheight);
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
-  var manybody = d3.forceManyBody().strength([-500]),
+  var manybody = d3.forceManyBody().strength([-300]),
       simlink = d3.forceLink().id(function(d) { return d.id; });
 
   var forcecollide = d3.forceCollide().radius([1]);

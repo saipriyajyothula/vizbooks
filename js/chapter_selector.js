@@ -1,9 +1,9 @@
-function networkcall(){
+function networkcall(mainsvg){
   // chapter selector
 
   var chapter = new Array(9);
   for(var i = 0;i < chapter.length; i++){
-      chapter[i] = true;
+      chapter[i] = false;
     }
 
   chapter[0] = true;
@@ -24,7 +24,7 @@ function networkcall(){
     "null": {"name":"Count","color":"#999"}
   };
 
-  var emotion = new Array(10)
+  var emotion = new Array(10);
   for(var i = 0;i <10; i++){
     emotion[i] = false;
   }

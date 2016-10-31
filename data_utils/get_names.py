@@ -39,7 +39,7 @@ def get_characternames(para):
     """
     Get the list of character from the paragraph
     """
-    ignore_list = ["Mr","Mrs","I","He","She","Ah","Aha","Everybody","Mister","Master","Miss","Ugh"]
+    ignore_list = ["Mr","Mrs","I","He","She","Ah","Aha","Everybody","Mister","Master","Miss","Ugh","Madam","Lord","Lady","Sir","Little","Prof","Madame","Dr"]
 
     character_list = []
     if isinstance(para,list):
@@ -48,7 +48,7 @@ def get_characternames(para):
     text = Text(para)
     for sentence in text.sentences:
         for entity in sentence.entities:
-            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii') and not entity[0].isupper() and not entity[0] in ignore_list:
+            if entity.tag == "I-PER" and entity[0][0].encode('ascii').isupper() and "'" not in entity[0].encode('ascii') and not entity[0].isupper() and not entity[0].encode('ascii') in ignore_list:
                 character_list.append(entity[0])
    
     if not character_list:
