@@ -7,7 +7,7 @@ from character_sentiment import *
 if __name__ == "__main__":
     directoryname = "../Data/"
     # shortens the json by combining paragraphs and chapters
-    jsonfile = "Persuasion_paradata.json"
+    jsonfile = "Sense_and_Sensibility_paradata.json"
     shortener(directoryname,jsonfile)
     # created only once - dictionary of emotion word vector
     # emotions_csvtojson("../Data/","NRCEmotionsLexicon.csv")
