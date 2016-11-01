@@ -36,8 +36,8 @@
         {"img" :"Data/Book_Covers/exp/408.jpg","name" : "Villette", "author_name" : "Charlotte Bronte", "directory_name" : ""},
         
         {"img" :"Data/Book_Covers/exp/109.jpg","name" : "Kidnapped", "author_name" : "Robert Louis Stevenson", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/209.jpg","name" : "The Strange Case of Dr Jekyll and Hyde", "author_name" : "Robert Louis Stevenson", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/309.jpg","name" : "Treasure Island", "author_name" : "Robert Louis Stevenson", "directory_name" : ""},
+        {"img" :"Data/Book_Covers/exp/209.jpg","name" : "The Strange Case of Dr Jekyll and Hyde", "author_name" : "Robert Louis Stevenson", "directory_name" : "Data/Json_Data/209/"},
+        {"img" :"Data/Book_Covers/exp/309.jpg","name" : "Treasure Island", "author_name" : "Robert Louis Stevenson", "directory_name" : "Data/Json_Data/309/"},
         
         {"img" :"Data/Book_Covers/exp/110.jpg","name" : "The Time Machine", "author_name" : "H G Wells", "directory_name" : ""},
         
