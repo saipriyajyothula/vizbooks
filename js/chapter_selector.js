@@ -11,16 +11,16 @@ function networkcall(mainsvg){
 
   // emotion selector
   var emotion_dict = {
-    "0": {"name":"Positive","color":""},
-    "1": {"name":"Negative","color":""},
-    "2": {"name":"Anger","color":""},
-    "3": {"name":"Anticipation","color":""},
-    "4": {"name":"Disgust","color":""},
-    "5": {"name":"Fear","color":"blue"},
-    "6": {"name":"Joy","color":"orange"},
-    "7": {"name":"Sadness","color":""},
-    "8": {"name":"Surprise","color":""},
-    "9": {"name":"Trust","color":""},
+    "0": {"name":"Anticipation","color":""},
+    "1": {"name":"Sadness","color":""},
+    "2": {"name":"Disgust","color":""},
+    "3": {"name":"Joy","color":""},
+    "4": {"name":"Anger","color":""},
+    "5": {"name":"Surprise","color":"blue"},
+    "6": {"name":"Fear","color":"orange"},
+    "7": {"name":"Trust","color":""},
+    "8": {"name":"Positive","color":""},
+    "9": {"name":"Negative","color":""},
     "null": {"name":"Count","color":"#999"}
   };
 
