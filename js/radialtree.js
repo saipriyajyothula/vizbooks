@@ -154,12 +154,14 @@ function radialtree(directoryname){
             gravity: 'w', 
             title: function() {
               var d = (this.__data__);
-              if(d.depth==0)
+              if(d.depth==2)
+                  return "Text section "+d.data.name.split('_')[1];
+              else if(d.depth==0)
                   return d.data.name;
               else{
-                   return d.data.name.replace('_',' ');
+                  return "Segment "+d.data.name.split('_')[1];
               }
-            }
+              }
           });
 
 
@@ -295,7 +297,10 @@ function changetext(d){
     if(d.depth==2){
         document.getElementById("note").value = d.data.value;
     }
+    else if(d.depth==1){
+        document.getElementById("note").value = "Segment "+d.data.name.split('_')[1];
+    }
     else{
-        document.getElementById("note").value = d.data.name.replace("_"," ");
+        document.getElementById("note").value = d.data.name.replace('_', ' ');
     }
 }

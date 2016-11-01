@@ -53,11 +53,11 @@ d3.json("Data/img.json",function(d){
     top_label.text("Select a book below! :)").attr("opacity", 1);
 
     var label = d3.select("#label")
-                .style('font-size',"18px").style('font-weight',300)
+                .style('font-size',"20px").style('font-weight',300)
                 .attr('opacity',0);
 
     var auth_label = d3.select("#auth_label")
-                .style('font-size',"18px").style('font-weight',300)
+                .style('font-size',"20px").style('font-weight',300)
                 .attr('opacity',0);
 
     // listener events
