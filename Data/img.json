@@ -38,7 +38,7 @@
         
         {"img" :"Data/Book_Covers/exp/111.jpg","name" : "Wuthering Heights", "author_name" : "Emily Bronte", "directory_name" : "Data/Json_Data/111/"},
         
-         {"img" :"Data/Book_Covers/exp/114.jpg","name" : "The Wonderful Wizard of Oz", "author_name" : "Frank Baum", "directory_name" : "Data/Json_Data/114/"},
+         {"img" :"Data/Book_Covers/exp/114.jpg","name" : "The Wonderful Wizard of Oz", "author_name" : "Frank Baum", "directory_name" : "Data/Json_Data/114/"}
         
       
 ]}
