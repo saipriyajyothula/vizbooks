@@ -1,7 +1,7 @@
 function networkcall(directoryname){
   // chapter selector
 
-  var chapter = new Array(9);
+  var chapter = new Array(6);
   for(var i = 0;i < chapter.length; i++){
       chapter[i] = true;
     }
@@ -40,6 +40,7 @@ function networkcall(directoryname){
       if (error) throw error;
 
       data = graph["force_list"];
+
 
       var nodes_list = [];
       var links_list = [];
