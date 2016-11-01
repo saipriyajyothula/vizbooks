@@ -1,51 +1,49 @@
-Code,Author_Name,Book_Name
-100,Alexander Dumas,The Count of Monte Cristo
-200,Alexander Dumas,The Man in the Iron Mask
-300,Alexander Dumas,Ten Years Later
-400,Alexander Dumas,The Borgias
-500,Alexander Dumas,The Black Tulip
-101,Bram Stoker,Dracula
-201,Bram Stoker,Dracula's Guest
-301,Bram Stoker,The Mystery of the Sea
-401,Bram Stoker,The Jewel of Seven Stars
-501,Bram Stoker,The Lair of the White Worm
-102,Charles Dickens,A Chirstmas Carol
-202,Charles Dickens,David Copperfield
-302,Charles Dickens,Oliver Twist
-402,Charles Dickens,Great Expectations
-502,Charles Dickens,A Tale of Two Cities
-103,Conan Doyle,A Study in Scarlet
-203,Conan Doyle,The Hound of Baskervilles
-303,Conan Doyle,The Sign of the Four
-403,Conan Doyle,The Lost World
-503,Conan Doyle,The Valley of Fear
-104,Jane Austen,Pride and Prejudice
-204,Jane Austen,Sense and Sensibility
-304,Jane Austen,Emma
-404,Jane Austen,Northanger Abbey
-504,Jane Austen,Persuasion
-105,Jules Verne,Twenty Thousand Leagues Under the Sea
-205,Jules Verne,The Mysterious Island
-305,Jules Verne,Around the World in 80 Days
-405,Jules Verne,From the Earth to the Moon
-505,Jules Verne,A Journey to the Center of the Earth
-106,Lucy Maud Montgomery,Anne of Avonlea
-206,Lucy Maud Montgomery,Anne of Green Gables
-306,Lucy Maud Montgomery,Anne of the Island
-406,Lucy Maud Montgomery,Anne's House of Dreams
-506,Lucy Maud Montgomery,Rilla of Ingleside
-107,Mark Twain,Adventures of Huckleberry Finn
-207,Mark Twain,The Adventures of Tom Sawyer
-307,Mark Twain,The Prince and the Pauper
-407,Mark Twain,Roughing It
-507,Mark Twain,The Innocents Abroad
-108,Charlotte Bronte,Jane Eyre
-208,Charlotte Bronte,The Professor
-308,Charlotte Bronte,Shirley
-408,Charlotte Bronte,Villette
-109,Robert Louis Stevenson,Kidnapped
-209,Robert Louis Stevenson,The Strange Case of Dr. Jekyll and Mr. Hyde
-309,Robert Louis Stevenson,Treasure Island
-110,H G Wells,The Time Machine
-111,Emily Bronte,Wuthering Heights
-112,Nathaniel Hawthorne,The Scarlet Letter
+Code,Author_Name,Book_Name,Chapter numbers,json,processeing,3rd viz,Image
+100,Alexander Dumas,The Man in the Iron Mask,60,yes,,,http://www.simonandschuster.ca/books/The-Man-in-the-Iron-Mask/Alexandre-Dumas/9781609771010
+200,Alexander Dumas,Ten Years Later,65,yes,yes,,http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781609771034/ten-years-later-9781609771034_hr.jpg
+300,Alexander Dumas,The Black Tulip,33,yes,yes,,https://usborne.com
+101,Bram Stoker,Dracula,27,yes,yes,,http://hubpages.com/literature/The-Birth-of-Dracula-The-Origins-of-the-European-Vampire-Myth
+201,Bram Stoker,The Mystery of the Sea,,yes,,,https://images-na.ssl-images-amazon.com/images/I/31CVObAQmwL.SX316.jpg
+301,Bram Stoker,The Jewel of Seven Stars,,yes,,,http://hubpages.com
+401,Bram Stoker,The Lair of the White Worm,,yes,,,http://toomuchhorrorfiction.blogspot.com/2011_07_01_archive.html
+102,Charles Dickens,A Chirstmas Carol,,yes,,,https://penguin.com.au/
+202,Charles Dickens,Oliver Twist,,yes,,,https://penguin.com.au/
+302,Charles Dickens,A Tale of Two Cities,,yes,,,https://penguin.com.au/
+103,Conan Doyle,A Study in Scarlet,14,yes,yes,,https://pastoffences.wordpress.com
+203,Conan Doyle,The Hound of Baskervilles,15,yes,,,https://pastoffences.wordpress.com
+303,Conan Doyle,The Sign of the Four,12,yes,yes,,https://pastoffences.wordpress.com
+403,Conan Doyle,The Lost World,16,yes,yes,,https://housefulofsecrets.wordpress.com/
+503,Conan Doyle,The Valley of Fear,14,yes,yes,,http://fractal-press.co.uk/valley-fear-conan-doyle/
+104,Jane Austen,Pride and Prejudice,,yes,yes,,https://www.penguin.co.uk/books
+204,Jane Austen,Sense and Sensibility,,yes,yes,,https://www.penguin.co.uk/books
+304,Jane Austen,Emma,,yes,yes,,https://www.penguin.co.uk/books
+404,Jane Austen,Northanger Abbey,,yes,yes,,penguin.com
+504,Jane Austen,Persuasion,,yes,yes,,https://janeausteninvermont.wordpress.com/
+604,Jane Austen,Mansfield Park,,yes,yes,,http://www.pasajeslibros.com/libros/orgullo-y-prejuicio/9788490321072/
+105,Jules Verne,Twenty Thousand Leagues Under the Sea,23,yes,yes,,https://penguin.com.au/
+205,Jules Verne,Around the World in 80 Days,37,yes,yes,,https://usborne.com
+305,Jules Verne,From the Earth to the Moon,23,yes,yes,,https://www.abebooks.com
+405,Jules Verne,A Journey to the Center of the Earth,45,yes,,,https://magrudy.com/books/juvenile-fiction_2072/
+106,Lucy Maud Montgomery,Anne of Avonlea,30,yes,,,https://malaysia.kinokuniya.com
+206,Lucy Maud Montgomery,Anne of Green Gables,38,yes,,,https://www.abebooks.com
+306,Lucy Maud Montgomery,Anne of the Island,41,yes,,,https://www.abebooks.com
+406,Lucy Maud Montgomery,Anne's House of Dreams,40,yes,,,https://www.abebooks.com
+506,Lucy Maud Montgomery,Rilla of Ingleside,35,yes,,,http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781442490208/rilla-of-ingleside-9781442490208_hr.jpg
+606,Lucy Maud Montgomery,Kilmeny of the Orchard,19,yes,,,http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625584342/kilmeny-of-the-orchard-9781625584342_hr.jpg
+107,Mark Twain,Adventures of Huckleberry Finn,43,yes,yes,,http://www.amazon.in/
+207,Mark Twain,The Adventures of Tom Sawyer,35,yes,yes,,http://www.amazon.in/
+307,Mark Twain,The Prince and the Pauper,33,yes,yes,,http://www.amazon.in/
+108,Charlotte Bronte,Jane Eyre,38,yes,,,https://www.abebooks.com
+208,Charlotte Bronte,The Professor,25,yes,,,https://www.abebooks.com
+308,Charlotte Bronte,Shirley,37,yes,,,https://www.abebooks.com
+408,Charlotte Bronte,Villette,42,yes,,,www.afterellen.com/more/28704-my-favorite-literary-heroines
+109,Robert Louis Stevenson,Kidnapped,30,yes,,,bizarrevictoria.livejournal.com
+209,Robert Louis Stevenson,The Strange Case of Dr. Jekyll and Mr. Hyde,10,yes,,,http://hubpages.com
+309,Robert Louis Stevenson,Treasure Island,34,yes,,,https://www.thinglink.com/
+110,H G Wells,The Time Machine,13,yes,,,http://hubpages.com
+111,Emily Bronte,Wuthering Heights,34,yes,yes,,bizarrevictoria.livejournal.com
+112,Nathaniel Hawthorne,The Scarlet Letter,25,yes,yes,,https://penguin.com.au/
+113,Johanna Spyri,Heidi,23,yes,,,https://usborne.com
+114,Frank Baum,The Wondeful Wizard of Oz,24,yes,yes,,https://meetmeatthebookparade.wordpress.com
+115,,,,,,,
+116,,,,,,,
