@@ -22,26 +22,23 @@
         {"img" :"Data/Book_Covers/exp/504.jpg","name" : "Persuasion", "author_name" : "Jane Austen", "directory_name" : "Data/Json_Data/504/"},
         {"img" :"Data/Book_Covers/exp/604.jpg","name" : "Mansfield Park", "author_name" : "Jane Austen", "directory_name" : "Data/Json_Data/604/"},  
         
-        {"img" :"Data/Book_Covers/exp/205.jpg","name" : "A Journey to the Center of the EarthT", "author_name" : "Jules Verne", "directory_name" : "Data/Json_Data/205/"},
+       
         {"img" :"Data/Book_Covers/exp/305.jpg","name" : "Around the World in 80 days", "author_name" : "Jules Verne", "directory_name" : "Data/Json_Data/305/"},
         
+        {"img" :"Data/Book_Covers/exp/206.jpg","name" : "Anne of Green Gables", "author_name" : "Lucy Maud Montgomery", "directory_name" : "Data/Json_Data/206/"},
         
         {"img" :"Data/Book_Covers/exp/107.jpg","name" : "Adventures of Huckleberry Finn", "author_name" : "Mark Twain", "directory_name" : "Data/Json_Data/107/"},
         {"img" :"Data/Book_Covers/exp/207.jpg","name" : "The Adventures of Tom Sawyer", "author_name" : "Mark Twain", "directory_name" : "Data/Json_Data/207/"},
         {"img" :"Data/Book_Covers/exp/307.jpg","name" : "The Prince and the Pauper", "author_name" : "Mark Twain", "directory_name" : "Data/Json_Data/307/"},
         
-        {"img" :"Data/Book_Covers/exp/108.jpg","name" : "Jane Eyre", "author_name" : "Charlotte Bronte", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/208.jpg","name" : "The Professor", "author_name" : "Charlotte Bronte", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/308.jpg","name" : "Shirley", "author_name" : "Charlotte Bronte", "directory_name" : ""},
-        {"img" :"Data/Book_Covers/exp/408.jpg","name" : "Villette", "author_name" : "Charlotte Bronte", "directory_name" : ""},
         
         {"img" :"Data/Book_Covers/exp/109.jpg","name" : "Kidnapped", "author_name" : "Robert Louis Stevenson", "directory_name" : "Data/Json_Data/109/"},
         {"img" :"Data/Book_Covers/exp/209.jpg","name" : "The Strange Case of Dr Jekyll and Hyde", "author_name" : "Robert Louis Stevenson", "directory_name" : "Data/Json_Data/209/"},
         {"img" :"Data/Book_Covers/exp/309.jpg","name" : "Treasure Island", "author_name" : "Robert Louis Stevenson", "directory_name" : "Data/Json_Data/309/"},
         
-        {"img" :"Data/Book_Covers/exp/110.jpg","name" : "The Time Machine", "author_name" : "H G Wells", "directory_name" : ""},
-        
         {"img" :"Data/Book_Covers/exp/111.jpg","name" : "Wuthering Heights", "author_name" : "Emily Bronte", "directory_name" : "Data/Json_Data/111/"},
+        
+         {"img" :"Data/Book_Covers/exp/114.jpg","name" : "The Wonderful Wizard of Oz", "author_name" : "Frank Baum", "directory_name" : "Data/Json_Data/114/"},
         
       
 ]}
