@@ -36,7 +36,6 @@ d3.json("Data/img.json",function(d){
     var group = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
     //images
     var images = group.selectAll("image")
         .data(i).enter();
@@ -116,15 +115,11 @@ d3.json("Data/img.json",function(d){
             auth_label.text("Author"+"\u00A0\u00A0\u00A0\u00A0\u00A0"+d.author_name)
             .transition().duration(1000).attr('opacity',1);
 
-            // get similar author books
-            var similar = i.filter(function(o){
-                return (o.author_name == d.author_name) && (o.name != d.name)});
-
             selected_imgdir = d.directory_name;
-            networkcall(selected_imgdir);
+            selected_imgdir = "Data/Json_Data/104/";
+            secondviz(selected_imgdir);
+            //force_call(selected_imgdir);
         }
-
-
 });
 
 }

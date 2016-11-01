@@ -1,12 +1,19 @@
-function force(graph,emotion_dict,current_emotion,emotion){
-  var forcewidth = 1250,
-      forceheight = 850,
+function force(graph,emotion_dict,current_emotion,emotion_no){
+  //d3.selectAll('.forcenodes').remove();
+  //d3.selectAll('.forcelinks').remove();
+
+
+  var forcewidth = 750,
+      forceheight = 700,
       forceradius = 9,
       forcetextsize = 15;
 
-  var forcesvg = d3.select('body').append("svg")
+  var forcesvg = d3.select('body')
+      //.append("div").attr("id","mychart")
+      .append("svg")
       .attr("width", forcewidth)
-      .attr("height", forceheight);
+      .attr("height", forceheight)
+      .attr('id','forcesvg');
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -41,7 +48,7 @@ function force(graph,emotion_dict,current_emotion,emotion){
     // Filter large networks
     var link_limiter = 75;
     forcelink.sort(function(a,b){
-      return d3.descending(a.value[emotion_dict[current_emotion].name],b.value[emotion_dict[current_emotion].name])});
+      return d3.descending(a.value[current_emotion],b.value[current_emotion])});
     forcelink = forcelink.filter(function(d,i){return i < link_limiter;});
     // end experimental filter
 
@@ -52,7 +59,7 @@ function force(graph,emotion_dict,current_emotion,emotion){
     });
 
     forcelink.each(function(d) {
-      if(d.value[emotion_dict[current_emotion].name] > 0){
+      if(d.value[current_emotion] > 0){
           forcenode.each(function(l){
           if(l.id == d.source){
               l.outDegree += 1;
@@ -70,7 +77,7 @@ function force(graph,emotion_dict,current_emotion,emotion){
       
 
       forcelink = forcelink.filter(function(l){
-        return l.value[emotion_dict[current_emotion].name] > 0;
+        return l.value[current_emotion] > 0;
       });
     // end filter
 
@@ -82,8 +89,8 @@ function force(graph,emotion_dict,current_emotion,emotion){
     function get_max(forcelink){
       var max = 0;
       forcelink.each(function(l){
-        if(l.value[emotion_dict[current_emotion].name] > max){
-          max = l.value[emotion_dict[current_emotion].name];
+        if(l.value[current_emotion] > max){
+          max = l.value[current_emotion];
         }
       })
       return max;
@@ -92,8 +99,8 @@ function force(graph,emotion_dict,current_emotion,emotion){
     function get_min(forcelink){
       var min = Infinity;
       forcelink.each(function(l){
-        if(l.value[emotion_dict[current_emotion].name] < min){
-          min = l.value[emotion_dict[current_emotion].name]
+        if(l.value[current_emotion] < min){
+          min = l.value[current_emotion];
         }
       })
       return min;
@@ -115,16 +122,9 @@ function force(graph,emotion_dict,current_emotion,emotion){
 
      var forceline = forcelink.append('line')
             .attr("stroke-width", function(d) { 
-        for(var i = 0;i <10; i++){
-          if(emotion[i] == true){
-            current_emotion = i.toString();
-            break;
-          }
-        }
-        if(current_emotion == null){current_emotion = "null";}
-        return line_scale(d.value[emotion_dict[current_emotion].name]); })
+        return line_scale(d.value[current_emotion]); })
       .style('stroke',function(){
-        return emotion_dict[current_emotion].color;
+        return emotion_dict[emotion_no].color;
       });
 
     // Hightlights connected nodes
@@ -233,5 +233,5 @@ function force(graph,emotion_dict,current_emotion,emotion){
     d.fx = null;
     d.fy = null;
   }
-  // end functions for dragging 
+  // end functions for dragging  
 }

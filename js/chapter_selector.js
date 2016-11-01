@@ -1,43 +1,5 @@
-function networkcall(directoryname){
-  // chapter selector
-
-  var chapter = new Array(6);
-  for(var i = 0;i < chapter.length; i++){
-      chapter[i] = true;
-    }
-
-  chapter[0] = true;
-  // end chapter selector
-
-  // emotion selector
-  var emotion_dict = {
-    "0": {"name":"Positive","color":""},
-    "1": {"name":"Negative","color":""},
-    "2": {"name":"Anger","color":""},
-    "3": {"name":"Anticipation","color":""},
-    "4": {"name":"Disgust","color":""},
-    "5": {"name":"Fear","color":"blue"},
-    "6": {"name":"Joy","color":"orange"},
-    "7": {"name":"Sadness","color":""},
-    "8": {"name":"Surprise","color":""},
-    "9": {"name":"Trust","color":""},
-    "null": {"name":"Count","color":"#999"}
-  };
-
-  var emotion = new Array(10);
-  for(var i = 0;i <10; i++){
-    emotion[i] = false;
-  }
-  //emotion[0] = true;
-  //emotion[1] = true;
-
-  var current_emotion = null;
-  // end emotion selector
-
-  function force_call(){
+function force_call(graph,directoryname,chapter,emotion_dict,current_emotion,emotion_no){
     // create data
-    d3.json(directoryname + "second.json", function(error, graph) {
-      if (error) throw error;
 
       data = graph["force_list"];
 
@@ -100,11 +62,7 @@ function networkcall(directoryname){
           }
         }
       }
-
       data = {"nodes" : nodes_list, "links" : links_list};
-      force(data,emotion_dict,current_emotion,emotion);
-    });  
-  }
-  force_call();  
+      force(data,emotion_dict,current_emotion,emotion_no); 
 }
 

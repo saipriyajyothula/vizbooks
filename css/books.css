@@ -1,31 +1,24 @@
-.node circle {
-  fill: #999;
-}
-
-.node text {
-  font: 10px sans-serif;
-}
-
-.node--internal circle {
-  fill: #999;
-}
-
-.node--leaf circle {
-  fill: none;
-}
-
-.node--internal text {
-  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-}
-
-
-.active{
-  display: inline-block;
-}
-
 .hidden{
   display: none;
 }
+
+.thirdnode rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.thirdnode text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.viz3link {
+  fill: none;
+  stroke: gray;
+  stroke-opacity: .5;
+}
+
 
 .forcelinks line {
   stroke-opacity: 0.8;
@@ -40,4 +33,5 @@
   font: 11px sans-serif;
   pointer-events: None;
 }
+
 
