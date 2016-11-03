@@ -55,6 +55,8 @@ Furthermore, brushing and linking has been implemented both ways: we can click o
 
 These second and third visualizations have a relationship with the first one as well. The second and third visualizations only show the filtered data of the chapters that are not collapsed in the first visualization.
 
+We also have a fun aspect to this visualization! You can click any of the emotions or the characters and drag them around and place them elsewhere, anywhere on the svg. Apart from the fun part, it also help in prioritizing emotions or characters that you want to focus on.
+
 It supports some tasks in analysing and most tasks in query actions. Few such tasks include comparing, summarizing, identifying apart from discovering and enjoying. The visualization supports all the search tasks – lookup, locate, browse and explore.
 
 VISUALIZATION THREE
