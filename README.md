@@ -1,6 +1,6 @@
 VIZBOOKS
 
-Video link: https://vishnusri-gmail.tinytake.com/sf/MTA5MDU3M180MzUxMDMw
+Video link: https://youtu.be/p7DgjtwQlxE
 
 A much detailed report can be found here: https://rawgit.com/saipriyajyothula/vizbooks/final/Vizbooks.pdf
 
