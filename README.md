@@ -1,5 +1,7 @@
 VIZBOOKS
 
+Direct link to the hosted page!: http://saipriyajyothula.me/vizbooks/
+
 Video link: https://youtu.be/p7DgjtwQlxE
 
 A much detailed report can be found here: https://rawgit.com/saipriyajyothula/vizbooks/final/Vizbooks.pdf
