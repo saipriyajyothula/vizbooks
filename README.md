@@ -9,6 +9,8 @@ INSTALLATION INSTRUCTIONS
 Download the NLTK corbora (use nltk.download in python)
 
 pip install -r requirements.txt
+https://cloud.githubusercontent.com/assets/22560070/19956804/3874794c-a15e-11e6-90d1-81c40636335c.PNG
+
 
 VISUALIZATION ONE
  
