@@ -1,3 +1,3 @@
 # vizbooks
 
-Video link: https://vishnusri-gmail.tinytake.com/sf/MTA5MDU3M180MzUxMDMw
+Video link:  www.youtube.com/watch?v=p7DgjtwQlxE&t=10s
